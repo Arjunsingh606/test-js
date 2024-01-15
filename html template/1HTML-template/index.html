@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template-1</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+  
+  </head>
+  <body>
+    <header class="container-fluid" id="home-page">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-list" style="color: #fff; font-size: 40px"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navLogo-item">
+              <a class="navbar-brand" href="#">
+                <img src="images/newlogo.png" alt=""
+              /></a>
+              <ul class="navbar-nav mr-auto px-4">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-white"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Home
+          
+                  </a>
+                  <ul class="dropdown-menu" id="course-dropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-white"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Pages
+                  </a>
+                  <ul class="dropdown-menu" id="course-dropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-white"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Blog
+                  </a>
+                  <ul class="dropdown-menu" id="course-dropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="#">Something else </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-white"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Course
+                  </a>
+                  <ul class="dropdown-menu" id="course-dropdown">
+                    <li><a class="dropdown-item" href="#">course 1</a></li>
+                    <li><a class="dropdown-item" href="#">course 2</a></li>
+                    <li><a class="dropdown-item" href="#">course 3</a></li>
+                    <li><a class="dropdown-item" href="#">course 4</a></li>
+                    <li><a class="dropdown-item" href="#">course 5</a></li>
+                    <li><a class="dropdown-item" href="#">course 6</a></li>
+                    <li><a class="dropdown-item" href="#">course 7</a></li>
+                    <li><a class="dropdown-item" href="#">course 8</a></li>
+                  </ul>
+                </li>
+                <li><a href="#" class="nav-link text-white">Contact</a></li>
+              </ul>
+            </div>
+            <div class="text-end d-flex gap-3">
+              <a class="link-item" href="#">
+                <img src="images/person.png" alt="" class="navbar-icons" />
+                <span>Account</span>
+              </a>
+              <a class="link-item" href="#">
+                <span class="sup-icon"><sup>2</sup></span>
+                <img src="images/heart.png" alt="" class="navbar-icons" />
+                <span>Saved</span>
+              </a>
+              <a class="link-item" href="#">
+                <span class="sup-icon"><sup>3</sup></span>
+                <img src="images/cart.png" alt="" class="navbar-icons" />
+                <span>cart</span>
+              </a>
+
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- form and text part in home page -->
+      <div class="container" id="home-pageForm">
+        <div class="row" style="margin-top: -47px">
+          <div class="col">
+            <form id="homepage-form">
+              <div class="mb-3">
+                <p class="formHeading">Explore Course</p>
+                <p class="formPara">
+                  Quite simply the best theme we have ever Purchased. The
+                  customization and flexbility are superb.
+                </p>
+              </div>
+              <div class="mb-3" id="input-icons">
+                <i class="bi bi-search icon"></i>
+                <input
+                  type="email"
+                  placeholder="search online course"
+                  class="form-control"
+                  id="formInput"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3" id="input-icons">
+                <i class="bi bi-box icon"></i>
+                <label class="selectForm">Backend</label>
+                <select id="formInput" class="formDropDown">
+                  <option value="Backend"></option>
+                  <option value="Backend">Backend</option>
+                  <option value="Frontend">Frontend</option>
+                </select>
+              </div>
+
+              <div class="mb-3" id="input-icons">
+                <i class="bi bi-person icon"></i>
+                <input
+                  type="text"
+                  placeholder="Author"
+                  class="form-control"
+                  id="formInput"
+                />
+              </div>
+
+              <button
+                type="submit"
+                class="btn btn-primary w-100 py-2 rounded-1 mb-3"
+              >
+                search
+              </button>
+            </form>
+          </div>
+          <div class="col">
+            <aside id="homepage-sideText">
+              <h3 class="text-light">
+                Buy Elomoas and<br />
+                get access to<br />amazing <br />
+                features <span class="hashIcon"><img src="images/hashIcon.png" alt=""></span>
+              </h3>
+              <p class="text-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium deleniti animi repellat nihil quibusdam aut adipisci
+                inventore neque, libero officia maiores perferendis asperiores
+                error fuga saepe rerum alias distinctio quia?
+              </p>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- online course section part -->
+    <section class="online-Course">
+      <div class="container" style="padding: 0 23px">
+        <div class="row" id="onlineCourseHeading">
+          <div class="col">
+            <button class="btn-onlinepartner">OUR PARTNER</button>
+            <p class="display-4 h-1 mb-3" id="online-courseHeading">
+              Choose the plan<br />
+              that's right for your<br />
+              business
+            </p>
+          </div>
+          <div class="col" id="">
+            <p class="col-lg-12" id="online-coursePara">
+              Quite simply the best theme we have ever Purchased. The
+              customisation and flexibility are superb.Speed is awesome. Not a
+              criticism we can make. Fun to use the theme, easy installation,
+              super easy to use execellent work.
+            </p>
+          </div>
+        </div>
+        <div class="brandlogo">
+          <img src="images/amazonlogo.png" alt="" />
+          <img src="images/airbnb.png" alt="" />
+          <img src="images/slacklogoo.png" alt="" />
+          <img src="images/paypallogo.png" alt="" />
+          <img src="images/spotifylogo.png" alt="" />
+          <img src="images/sketchlogo.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- popular corse section -->
+    <section>
+      <div class="px-4 mt-5 mb-1 text-center" id="CardsTitle">
+        <button class="btn-popular">TRENDING</button>
+        <p class="popularCourseHeading">Popular Course</p>
+        <div class="col-lg-6 mx-auto">
+          <p class="mb-4" style="color: #afbbcd">
+            orem ipsum elit. Fuga possimus fugit, at corporis ab soluta<br />commodi
+            aliquam minima explicabo? Error, impedit? sunt tempore sit.
+          </p>
+        </div>
+      </div>
+      <div class="container" id="popular-card">
+        <div class="popularCourseDetails">
+          <div class="col-sm-3 mb-3 mb-sm-0">
+            <div class="card" id="card-sizing">
+              <div class="card-body">
+                <p class="card-Paratitle">
+                  Complete Python Bootcamp From Zero<br />
+                  to Hero in Python
+                </p>
+                <button class="btn-cardCourse">FULL TIME</button>
+              </div>
+              <div class="images-brandlogo">
+                <span>
+                  <img src="images/card.jfif" alt="" />
+                  <img src="images/card2.jpg" alt="" />
+                  <img src="images/card1.jfif" alt="" />
+                  <img src="images/card4.avif" alt="" />
+                </span>
+
+                <span
+                  ><img src="images/slacklogoo.png" alt="" id="slackIcon"
+                /></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 mb-3 mb-sm-0">
+            <div class="card" id="card-sizing">
+              <div class="card-body">
+                <p class="card-Paratitle">
+                  Complete Python Bootcamp From Zero<br />
+                  to Hero in Python
+                </p>
+                <button class="btn-cardCourse">FULL TIME</button>
+              </div>
+              <div class="images-brandlogo">
+                <span>
+                  <img src="images/card.jfif" alt="" />
+                  <img src="images/card2.jpg" alt="" />
+                  <img src="images/card1.jfif" alt="" />
+                  <img src="images/card4.avif" alt="" />
+                </span>
+
+                <span
+                  ><img src="images/airbnblogo.png" alt="" id="slackIcon"
+                /></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 mb-3 mb-sm-0">
+            <div class="card" id="card-sizing">
+              <div class="card-body">
+                <p class="card-Paratitle">
+                  Complete Python Bootcamp From Zero<br />
+                  to Hero in Python
+                </p>
+                <button class="btn-cardCourse">FULL TIME</button>
+              </div>
+              <div class="images-brandlogo">
+                <span>
+                  <img src="images/card.jfif" alt="" />
+                  <img src="images/card2.jpg" alt="" />
+                  <img src="images/card1.jfif" alt="" />
+                  <img src="images/card4.avif" alt="" />
+                </span>
+
+                <span
+                  ><img src="images/spotifylogo.png" alt="" id="slackIcon"
+                /></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 mb-3 mb-sm-0">
+            <div class="card" id="card-sizing">
+              <div class="card-body">
+                <p class="card-Paratitle">
+                  Complete Python Bootcamp From Zero<br />
+                  to Hero in Python
+                </p>
+                <button class="btn-cardCourse">FULL TIME</button>
+              </div>
+              <div class="images-brandlogo">
+                <span>
+                  <img src="images/card.jfif" alt="" />
+                  <img src="images/card2.jpg" alt="" />
+                  <img src="images/card1.jfif" alt="" />
+                  <img src="images/card4.avif" alt="" />
+                </span>
+
+                <span
+                  ><img src="images/slacklogoo.png" alt="" id="slackIcon"
+                /></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 mb-3 mb-sm-0">
+            <div class="card" id="card-sizing">
+              <div class="card-body">
+                <p class="card-Paratitle">
+                  Complete Python Bootcamp From Zero<br />
+                  to Hero in Python
+                </p>
+                <button class="btn-cardCourse">FULL TIME</button>
+              </div>
+              <div class="images-brandlogo">
+                <span>
+                  <img src="images/card.jfif" alt="" />
+                  <img src="images/card2.jpg" alt="" />
+                  <img src="images/card1.jfif" alt="" />
+                  <img src="images/card4.avif" alt="" />
+                </span>
+
+                <span
+                  ><img src="images/slacklogoo.png" alt="" id="slackIcon"
+                /></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 mb-3 mb-sm-0">
+            <div class="card" id="card-sizing">
+              <div class="card-body">
+                <p class="card-Paratitle">
+                  Complete Python Bootcamp From Zero<br />
+                  to Hero in Python
+                </p>
+                <button class="btn-cardCourse">FULL TIME</button>
+              </div>
+              <div class="images-brandlogo">
+                <span>
+                  <img src="images/card.jfif" alt="" />
+                  <img src="images/card2.jpg" alt="" />
+                  <img src="images/card1.jfif" alt="" />
+                  <img src="images/card4.avif" alt="" />
+                </span>
+
+                <span
+                  ><img src="images/slacklogoo.png" alt="" id="slackIcon"
+                /></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 mb-3 mb-sm-0">
+            <div class="card" id="card-sizing">
+              <div class="card-body">
+                <p class="card-Paratitle">
+                  Complete Python Bootcamp From Zero<br />
+                  to Hero in Python
+                </p>
+                <button class="btn-cardCourse">FULL TIME</button>
+              </div>
+              <div class="images-brandlogo">
+                <span>
+                  <img src="images/card.jfif" alt="" />
+                  <img src="images/card2.jpg" alt="" />
+                  <img src="images/card1.jfif" alt="" />
+                  <img src="images/card4.avif" alt="" />
+                </span>
+
+                <span
+                  ><img src="images/slacklogoo.png" alt="" id="slackIcon"
+                /></span>
+              </div>
+            </div>
+          </div>
+          <!-- card for total number of courses -->
+          <div class="col-sm-3 mb-3 mb-sm-0">
+            <div class="card" id="card-sizing">
+              <div class="card-body" style="text-align: center">
+                <p class="cardTitle-TotalNumber">
+                  43K<span class="arrow-icon"
+                    ><img src="images/arrow.png" alt=""
+                  /></span>
+                </p>
+                <p class="cardTitle-TotalText">Total Online Course</p>
+
+                <button class="cardTitle-TotalBtn">Explore Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- for review and background image section -->
+    <section>
+      <div class="container-fluid">
+        <div class="review">
+          "
+          <div class="review-card">
+            <p class="aboutTheme">
+              Quite simply the best theme we have ever purchased. The
+              customisation and flexibility are superb.Speed is awesome. Not a
+              criticism we can make. Fun to use the theme, easy installation,
+              super easy to use.Execellent work.
+            </p>
+            <div class="review-images">
+              <div class="personDetails">
+                <img src="images/star.avif" alt="" />
+                <div class="personName">
+                  <p class="hurinSurey">Hurin Surey</p>
+                  <p>Digital marketing Executive</p>
+                </div>
+              </div>
+
+              <span class="review-star">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </span>
+            </div>
+          </div>
+          <div class="review-icon"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- for Author section -->
+    <section>
+      <div class="px-4 pt-3 my-5 text-center" id="CardsTitle">
+        <button class="btn-popular">AUTHOR</button>
+        <p class="aboutAuthor">Most popular Author</p>
+        <div class="col-lg-6 mx-auto">
+          <p class="aboutAuthor-para">
+            orem ipsum dolor sit adipisicing elit. Fuga possimus fugit<br />
+            at corporis ab soluta, non commodi aliquam minima aquasi tempore
+            sit.
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="AuthorCardDetails">
+          <div class="g-col-4" id="AuthorCard">
+            <div class="AuthorCard-image">
+              <span class="AuthorCard-threedot"
+                ><i class="bi bi-three-dots"></i
+              ></span>
+              <img src="images/card.jfif" alt="" />
+              <p>Kimberley kelly<i class="bi bi-check-circle-fill"></i></p>
+            </div>
+            <div class="AuthorCard-skillsHighlight">
+              <div class="AuthorCard-skills">
+                <p>support@gmail.com</p>
+                <div class="AuthorCard-techskills">
+                  <span
+                    >Designer<i
+                      class="bi bi-circle-fill"
+                      style="font-size: 8px"
+                    ></i
+                  ></span>
+                  <span
+                    >PHP<i class="bi bi-circle-fill" style="font-size: 8px"></i
+                  ></span>
+                  <span>HTML5</span>
+                </div>
+              </div>
+              <div class="AuthorCard-socialData">
+                <div>22.3K<span id="socialdetails">Connections</span></div>
+                <div>8854<span id="socialdetails">Follower</span></div>
+                <div>1,303<span id="socialdetails">Following</span></div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button class="btn btn-primary" type="button" id="AuthorCard-btn">
+                Follow
+              </button>
+            </div>
+          </div>
+          <div class="g-col-4" id="AuthorCard">
+            <div class="AuthorCard-image">
+              <span class="AuthorCard-threedot"
+                ><i class="bi bi-three-dots"></i
+              ></span>
+              <img src="images/card.jfif" alt="" />
+              <p>Kimberley kelly<i class="bi bi-check-circle-fill"></i></p>
+            </div>
+            <div class="AuthorCard-skillsHighlight">
+              <div class="AuthorCard-skills">
+                <p>support@gmail.com</p>
+                <div class="AuthorCard-techskills">
+                  <span
+                    >Designer<i
+                      class="bi bi-circle-fill"
+                      style="font-size: 8px"
+                    ></i
+                  ></span>
+                  <span
+                    >PHP<i class="bi bi-circle-fill" style="font-size: 8px"></i
+                  ></span>
+                  <span>HTML5</span>
+                </div>
+              </div>
+              <div class="AuthorCard-socialData">
+                <div>22.3K<span id="socialdetails">Connections</span></div>
+                <div>8854<span id="socialdetails">Follower</span></div>
+                <div>1,303<span id="socialdetails">Following</span></div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button class="btn btn-primary" type="button" id="AuthorCard-btn">
+                Follow
+              </button>
+            </div>
+          </div>
+          <div class="g-col-4" id="AuthorCard">
+            <div class="AuthorCard-image">
+              <span class="AuthorCard-threedot"
+                ><i class="bi bi-three-dots"></i
+              ></span>
+              <img src="images/card.jfif" alt="" />
+              <p>Kimberley kelly<i class="bi bi-check-circle-fill"></i></p>
+            </div>
+            <div class="AuthorCard-skillsHighlight">
+              <div class="AuthorCard-skills">
+                <p>support@gmail.com</p>
+                <div class="AuthorCard-techskills">
+                  <span
+                    >Designer<i
+                      class="bi bi-circle-fill"
+                      style="font-size: 8px"
+                    ></i
+                  ></span>
+                  <span
+                    >PHP<i class="bi bi-circle-fill" style="font-size: 8px"></i
+                  ></span>
+                  <span>HTML5</span>
+                </div>
+              </div>
+              <div class="AuthorCard-socialData">
+                <div>22.3K<span id="socialdetails">Connections</span></div>
+                <div>8854<span id="socialdetails">Follower</span></div>
+                <div>1,303<span id="socialdetails">Following</span></div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button class="btn btn-primary" type="button" id="AuthorCard-btn">
+                Follow
+              </button>
+            </div>
+          </div>
+          <div class="g-col-4" id="AuthorCard">
+            <div class="AuthorCard-image">
+              <span class="AuthorCard-threedot"
+                ><i class="bi bi-three-dots"></i
+              ></span>
+              <img src="images/card.jfif" alt="" />
+              <p>Kimberley kelly<i class="bi bi-check-circle-fill"></i></p>
+            </div>
+            <div class="AuthorCard-skillsHighlight">
+              <div class="AuthorCard-skills">
+                <p>support@gmail.com</p>
+                <div class="AuthorCard-techskills">
+                  <span
+                    >Designer<i
+                      class="bi bi-circle-fill"
+                      style="font-size: 8px"
+                    ></i
+                  ></span>
+                  <span
+                    >PHP<i class="bi bi-circle-fill" style="font-size: 8px"></i
+                  ></span>
+                  <span>HTML5</span>
+                </div>
+              </div>
+              <div class="AuthorCard-socialData">
+                <div>22.3K<span id="socialdetails">Connections</span></div>
+                <div>8854<span id="socialdetails">Follower</span></div>
+                <div>1,303<span id="socialdetails">Following</span></div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button class="btn btn-primary" type="button" id="AuthorCard-btn">
+                Follow
+              </button>
+            </div>
+          </div>
+          <div class="g-col-4" id="AuthorCard">
+            <div class="AuthorCard-image">
+              <span class="AuthorCard-threedot"
+                ><i class="bi bi-three-dots"></i
+              ></span>
+              <img src="images/card.jfif" alt="" />
+              <p>Kimberley kelly<i class="bi bi-check-circle-fill"></i></p>
+            </div>
+            <div class="AuthorCard-skillsHighlight">
+              <div class="AuthorCard-skills">
+                <p>support@gmail.com</p>
+                <div class="AuthorCard-techskills">
+                  <span
+                    >Designer<i
+                      class="bi bi-circle-fill"
+                      style="font-size: 8px"
+                    ></i
+                  ></span>
+                  <span
+                    >PHP<i class="bi bi-circle-fill" style="font-size: 8px"></i
+                  ></span>
+                  <span>HTML5</span>
+                </div>
+              </div>
+              <div class="AuthorCard-socialData">
+                <div>22.3K<span id="socialdetails">Connections</span></div>
+                <div>8854<span id="socialdetails">Follower</span></div>
+                <div>1,303<span id="socialdetails">Following</span></div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button class="btn btn-primary" type="button" id="AuthorCard-btn">
+                Follow
+              </button>
+            </div>
+          </div>
+          <div class="g-col-4" id="AuthorCard">
+            <div class="AuthorCard-image">
+              <span class="AuthorCard-threedot"
+                ><i class="bi bi-three-dots"></i
+              ></span>
+              <img src="images/card.jfif" alt="" />
+              <p>Kimberley kelly<i class="bi bi-check-circle-fill"></i></p>
+            </div>
+            <div class="AuthorCard-skillsHighlight">
+              <div class="AuthorCard-skills">
+                <p>support@gmail.com</p>
+                <div class="AuthorCard-techskills">
+                  <span
+                    >Designer<i
+                      class="bi bi-circle-fill"
+                      style="font-size: 8px"
+                    ></i
+                  ></span>
+                  <span
+                    >PHP<i class="bi bi-circle-fill" style="font-size: 8px"></i
+                  ></span>
+                  <span>HTML5</span>
+                </div>
+              </div>
+              <div class="AuthorCard-socialData">
+                <div>22.3K<span id="socialdetails">Connections</span></div>
+                <div>8854<span id="socialdetails">Follower</span></div>
+                <div>1,303<span id="socialdetails">Following</span></div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button class="btn btn-primary" type="button" id="AuthorCard-btn">
+                Follow
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="staticsForCourse">
+        <div class="staticsForCourse-title">
+          <span class="staticsForCourse-icon" id="static-3"
+            ><i class="bi bi-box-seam"></i
+          ></span>
+          <p class="Revenue">34M</p>
+          <p class="para">Increase in Revenue</p>
+        </div>
+        <div class="staticsForCourse-title">
+          <span class="staticsForCourse-icon" id="static-1"
+            ><i class="bi bi-award"></i
+          ></span>
+          <p class="Revenue">210K</p>
+          <p class="para">Increase in Revenue</p>
+        </div>
+        <div class="staticsForCourse-title">
+          <span class="staticsForCourse-icon" id="static-2"
+            ><i class="bi bi-box"></i
+          ></span>
+          <p class="Revenue">40%</p>
+          <p class="para">Increase in Revenue</p>
+        </div>
+        <div class="staticsForCourse-title">
+          <span class="staticsForCourse-icon" id="static-3"
+            ><i class="bi bi-download"></i
+          ></span>
+          <p class="Revenue">43K</p>
+          <p class="para">Increase in Revenue</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- for FAQ sections  -->
+    <section>
+      <div class="px-4 pt-3 my-5 text-center" id="CardsTitle">
+        <button class="btn-popular" style="width: 60px!important;">FAQ</button>
+        <p class="aboutAuthor">Frequently Asked Questions</p>
+        <div class="col-lg-6 mx-auto">
+          <p class="faqsPara">
+            orem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+            possimus fugit<br />
+            commodi aliquam minima autem sunt. Nisi, quasi explicabo? Error,
+            tempore sit.
+          </p>
+        </div>
+      </div>
+      <div class="container" id="faqsContainer">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+                id="accordian-btnColor"
+              >
+                How do i make yearly payment
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Tempora, id, maiores assumenda error dolore expedita, veniam
+                repudiandae sapiente nulla vitae est adipisci. Possimus itaque
+                et nesciunt nisi deleniti impedit minus porro! Facilis veniam
+                rem aut consequuntur? Hic a quibusdam obcaecati at ipsum earum,
+                deleniti dolor ducimus iusto blanditiis deserunt et vero
+                sapiente recusandae ipsam suscipit eligendi voluptatum
+                dignissimos provident repellendus iste, perferendis placeat est
+                accusamus. Optio numquam odit quam ullam fugiat quod, eligendi
+                ad dolor vero deleniti voluptas repellendus sapiente doloribus
+                esse
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+                id="accordian-btnColor"
+              >
+                How this technology works
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda, porro quod! Ratione harum ut saepe quos, odit quasi,
+                numquam culpa laborum eius, temporibus nemo adipisci quisquam?
+                Autem omnis facere enim nemo numquam, odio vero laboriosam hic
+                porro saepe ullam ipsam, quae, perspiciatis veritatis quam nulla
+                corrupti commodi corporis? Distinctio error eos quis aspernatur
+                et. Voluptatibus sunt praesentium voluptate delectus dolorem
+                culpa quis dolore aliquam! Maiores magnam assumenda saepe! Dolor
+                harum impedit sint id, quis suscipit velit similique molestiae
+                corporis sed magni quisquam excepturi sit, non, perferendis
+                earum facilis. Eum quas quos repellat nesciunt, ipsum voluptate
+                molestiae unde ea a minima!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="true"
+                aria-controls="flush-collapseThree"
+                id="accordian-btnColor"
+              >
+                How this technology works
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda, porro quod! Ratione harum ut saepe quos, odit quasi,
+                numquam culpa laborum eius, temporibus nemo adipisci quisquam?
+                Autem omnis facere enim nemo numquam, odio vero laboriosam hic
+                porro saepe ullam ipsam, quae, perspiciatis veritatis quam nulla
+                corrupti commodi corporis? Distinctio error eos quis aspernatur
+                et. Voluptatibus sunt praesentium voluptate delectus dolorem
+                culpa quis dolore aliquam! Maiores magnam assumenda saepe! Dolor
+                harum impedit sint id, quis suscipit velit similique molestiae
+                corporis sed magni quisquam excepturi sit, non, perferendis
+                earum facilis. Eum quas quos repellat nesciunt, ipsum voluptate
+                molestiae unde ea a minima!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFour"
+                aria-expanded="false"
+                aria-controls="flush-collapseFour"
+                id="accordian-btnColor"
+              >
+                How this technology works
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda, porro quod! Ratione harum ut saepe quos, odit quasi,
+                numquam culpa laborum eius, temporibus nemo adipisci quisquam?
+                Autem omnis facere enim nemo numquam, odio vero laboriosam hic
+                porro saepe ullam ipsam, quae, perspiciatis veritatis quam nulla
+                corrupti commodi corporis? Distinctio error eos quis aspernatur
+                et. Voluptatibus sunt praesentium voluptate delectus dolorem
+                culpa quis dolore aliquam! Maiores magnam assumenda saepe! Dolor
+                harum impedit sint id, quis suscipit velit similique molestiae
+                corporis sed magni quisquam excepturi sit, non, perferendis
+                earum facilis. Eum quas quos repellat nesciunt, ipsum voluptate
+                molestiae unde ea a minima!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFive"
+                aria-expanded="false"
+                aria-controls="flush-collapseFive"
+                id="accordian-btnColor"
+              >
+                How this technology works
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda, porro quod! Ratione harum ut saepe quos, odit quasi,
+                numquam culpa laborum eius, temporibus nemo adipisci quisquam?
+                Autem omnis facere enim nemo numquam, odio vero laboriosam hic
+                porro saepe ullam ipsam, quae, perspiciatis veritatis quam nulla
+                corrupti commodi corporis? Distinctio error eos quis aspernatur
+                et. Voluptatibus sunt praesentium voluptate delectus dolorem
+                culpa quis dolore aliquam! Maiores magnam assumenda saepe! Dolor
+                harum impedit sint id, quis suscipit velit similique molestiae
+                corporis sed magni quisquam excepturi sit, non, perferendis
+                earum facilis. Eum quas quos repellat nesciunt, ipsum voluptate
+                molestiae unde ea a minima!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseSix"
+                aria-expanded="false"
+                aria-controls="flush-collapseSix"
+                id="accordian-btnColor"
+              >
+                How this technology works
+              </button>
+            </h2>
+            <div
+              id="flush-collapseSix"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Assumenda, porro quod! Ratione harum ut saepe quos, odit quasi,
+                numquam culpa laborum eius, temporibus nemo adipisci quisquam?
+                Autem omnis facere enim nemo numquam, odio vero laboriosam hic
+                porro saepe ullam ipsam, quae, perspiciatis veritatis quam nulla
+                corrupti commodi corporis? Distinctio error eos quis aspernatur
+                et. Voluptatibus sunt praesentium voluptate delectus dolorem
+                culpa quis dolore aliquam! Maiores magnam assumenda saepe! Dolor
+                harum impedit sint id, quis suscipit velit similique molestiae
+                corporis sed magni quisquam excepturi sit, non, perferendis
+                earum facilis. Eum quas quos repellat nesciunt, ipsum voluptate
+                molestiae unde ea a minima!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer-main">
+      <!-- footer form section and social icons -->
+      <div class="container">
+        <div class="py-5 px-5 my-5" id="footer-firstContainer">
+          <p class="footerHeading">
+            We are Digital Agency, A small disign agency based in paris as i was
+            groping to remove the chain from about my victim's neck only through
+            language.
+          </p>
+          <div class="footer-form">
+            <div class="social-icon col-md-4 d-flex align-items-center">
+              <div class="footer-icons">
+                <span>
+                  <i class="bi bi-facebook"></i>
+                </span>
+                <span>
+                  <i class="bi bi-twitter"></i>
+                </span>
+                <span>
+                  <i class="bi bi-linkedin"></i>
+                </span>
+                <span>
+                  <i class="bi bi-instagram"></i>
+                </span>
+                <span>
+                  <i class="bi bi-youtube"></i>
+                </span>
+              </div>
+            </div>
+            <div class="footerinput-Btn">
+              <label for="newsletter1" class="visually-hidden"
+                >Email address</label
+              >
+              <input
+                id="newsletter1"
+                type="text"
+                class="form-input"
+                placeholder="Email"
+              />
+              <button class="form-button" type="button">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-border"><hr /></div>
+      <!-- footer items -->
+      <div class="container">
+        <section id="footer-firstContainer">
+          <div class="row" id="footer-listItem">
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="footerListTitle">Social Link</h5>
+              <ul class="nav flex-column" id="footerListItem">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Facebook</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Twitter</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Instagram</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Youtube</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Dribble</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="footerListTitle">Online</h5>
+              <ul class="nav flex-column" id="footerListItem">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary">Web</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Series</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary">Natak</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Comedy</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Action</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="footerListTitle">Language</h5>
+              <ul class="nav flex-column" id="footerListItem">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >English</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Spanish</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary">Arab</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary">Urdu</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary">Hindi</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="footerListTitle">Channel</h5>
+              <ul class="nav flex-column" id="footerListItem">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Makeup</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Dresses</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary">Girls</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Sandals</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Headphones</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="footerListTitle">About</h5>
+              <ul class="nav flex-column" id="footerListItem">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Terms of use</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Privacy Policy</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Feedback</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >Careers</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-md-2 mb-3">
+              <h5 class="footerListTitle">Office</h5>
+              <ul class="nav flex-column" id="footerListItem">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >41 Madison ave, floor 21<br />New york, NY 10010<br />1-877-972-322</a
+                  >
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link p-0 text-body-secondary"
+                    >41 Madison ave, floor 21<br />New york, NY 10010<br />1-877-972-322</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <div
+          class="d-flex flex-column flex-sm-row justify-content-between py-5 px-5 my-5"
+          id="footer-companyRights"
+        >
+          <p>© 2023 Company, Inc. All rights reserved.</p>
+          <p>
+            In case of any concerns, <span class="text-light">contact Us</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

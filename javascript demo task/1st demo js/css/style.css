@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+section{
+  background-color: #f3f4f4;
+  height: 100vh;
+}
+.navbar-color {
+  background-color: #5a8dee;
+  color: #fff;
+}
+.btn-primary.btn-add {
+  background-color: #fff;
+  color: #212121;
+}
+.modal-body.user-form {
+  color: #212121;
+}
+.modal-header.user-header {
+  background-color: #212121;
+}
+.input-form {
+  padding: 10px;
+}
+.form-select {
+  padding: 12px 15px;
+}
+.add-user-btn {
+  background-color: #5a8dee;
+  color: #fff;
+  padding: 8px 20px;
+}
+.add-user-btn:hover {
+  background-color: #5a8dee;
+  color: #fff;
+}
+.btn-close {
+  --bs-btn-close-bg: url(https://flaticons.net/icon.php?slug_category=mobile-application&slug_icon=close);
+  --bs-btn-close-opacity: 1;
+  --bs-btn-close-hover-opacity: 1;
+}
+.btn.edit-btn {
+  background-color: #fdac41;
+  color: #fff;
+}
+.btn.del-btn {
+  background-color: #ff5b5c;
+  color: #fff;
+}
+.table-heading :last-child {
+  text-align: right;
+}
+.table-heading th {
+  padding: 15px;
+}
+.table-heading {
+  border-radius: 20px;
+}
+.delButton {
+  text-align: end;
+}
+.table.user-table {
+  vertical-align: middle;
+  margin-top: 70px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2);
+}
+tr:first-child th:first-child {
+  border-top-left-radius: 10px;
+}
+tr:first-child th:last-child {
+  border-top-right-radius: 10px;
+}
+
+.form-control.input-form:focus {
+  outline: 0;
+  box-shadow: none;
+  border-color: #777;
+}
+.form-select.input-form:focus{
+  outline: 0;
+  box-shadow: none;
+  border-color: #777;
+}
+
+.error input{
+ border:  2px solid red !important;
+}
+.success input{
+ border:  2px solid green !important;
+}
+
+.small-error{
+color: red;
+}
+
+#update-btn{
+ background-color: #fdac41;
+}
+
+/* .remove-form{
+  display: none;
+} */
+

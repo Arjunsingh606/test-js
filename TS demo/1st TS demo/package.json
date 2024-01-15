@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@types/es6-promise": "^3.3.0",
+    "bootstrap": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.18.67"
+  }
+}

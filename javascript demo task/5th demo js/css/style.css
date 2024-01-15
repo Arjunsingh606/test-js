@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+.chart-body {
+  background-image: linear-gradient(to right, #2d8c85, #393d90);
+}
+.title {
+  font-size: xxx-large;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 10px;
+}
+.dates {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 4rem;
+}
+.date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.table.chart {
+  margin-top: 2rem;
+}
+.date input {
+  padding: 5px 25px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+.date label {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.chart-table {
+  width: 100%;
+  overflow: auto;
+  margin-top: 1rem;
+}
+.error-msg{
+  color: #fff;
+  font-size: 20px;
+}

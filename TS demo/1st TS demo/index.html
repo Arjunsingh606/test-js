@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TS demo-01</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="navbar navbar-dark navbar-color shadow-sm">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <strong>CRUD Operation in Modal</strong>
+        </a>
+        <button
+          type="button"
+          class="btn btn-primary btn-add"
+          data-bs-toggle="modal"
+          data-bs-target="#playerModal"
+          id="add-player-btn"
+        >
+          Add New Player
+        </button>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="playerModal"
+          tabindex="-1"
+          aria-labelledby="playerModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" id="player-popup">
+            <div class="modal-content">
+              <div id="color" class="modal-header user-header">
+                <h1 class="modal-title fs-5" id="add-player-label">
+                  Add Player
+                </h1>
+                <h1 class="modal-title fs-5" id="edit-player-Label">
+                  Edit Player
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body user-form">
+                <form id="sport-form">
+                  <div class="input-control">
+                    <label class="form-label" for="full-name">Full name</label>
+                    <input
+                      type="text"
+                      id="full-name"
+                      class="form-control input-form"
+                      onkeyup="sportFormValidation('fullname')"
+                    />
+                    <div class="error"></div>
+                  </div>
+
+                  <div class="input-control">
+                    <label class="form-label" for="mob-no">Mob number</label>
+                    <input
+                      type="text"
+                      id="mob-no"
+                      class="form-control input-form"
+                      onkeyup="sportFormValidation('mobilenumber')"
+                    />
+                    <div class="error"></div>
+                  </div>
+
+                  <div class="input-control">
+                    <label class="form-label" for="email">Email address</label>
+                    <input
+                      type="email"
+                      id="email"
+                      class="form-control input-form"
+                      onkeyup="sportFormValidation('email')"
+                    />
+                    <div class="error"></div>
+                  </div>
+
+                  <div class="input-control">
+                    <label class="form-label" for="sport-name"
+                      >Sport name</label
+                    >
+                    <select
+                      class="form-select input-form"
+                      aria-label="Default select example"
+                      id="sport-name"
+                      onchange="sportFormValidation('sport')"
+                    >
+                      <option value="">Choose sport</option>
+                      <option value="Cricket">Cricket</option>
+                      <option value="VollyBall">VollyBall</option>
+                      <option value="Football">Football</option>
+                      <option value="Badminton">Badminton</option>
+                      <option value="Atheletics">Atheletics</option>
+                    </select>
+                    <div class="error"></div>
+                  </div>
+                  <!--Experties -->
+                  <div class="input-control">
+                    <label class="form-label" for="experties">Experties</label>
+                    <select
+                      class="form-select input-form"
+                      aria-label="Default select example"
+                      id="experties"
+                      onchange="sportFormValidation('experties')"
+                    >
+                      <option value="">Choose Level</option>
+                      <option value="Beginner level">Beginner level</option>
+                      <option value="Medium level">Medium level</option>
+                      <option value="Advance level">Advance level</option>
+                    </select>
+                    <div class="error"></div>
+                  </div>
+
+                  <!-- Submit button -->
+                  <button
+                    type="submit"
+                    id="update-btn"
+                    class="btn add-user-btn"
+                    
+                  >
+                    Update
+                  </button>
+                  <button
+                    type="submit"
+                    id="submit-btn"
+                    class="btn add-user-btn"
+                    
+                    
+                  >
+                    Submit
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- display data in table -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="table-responsive">
+              <table class="table user-table">
+                <thead class="table-dark">
+                  <tr class="table-heading">
+                    <th class="text-center">S.no</th>
+                    <th>Name</th>
+                    <th>Mobile number</th>
+                    <th>Email</th>
+                    <th>Sport name</th>
+                    <th>Experties level</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody id="display-sport-list">
+                  <tr class="user-row"></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

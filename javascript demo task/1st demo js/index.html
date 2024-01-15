@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js demo-01</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="navbar navbar-dark navbar-color shadow-sm">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <strong>CRUD Operation in Modal</strong>
+        </a>
+        <!-- User creation modal -->
+        <button
+          type="button"
+          class="btn btn-primary btn-add"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          id="addBtn"
+        >
+          Add New User
+        </button>
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div id="color" class="modal-header user-header">
+                <h1 class="modal-title fs-5" id="AddLabel">Add User</h1>
+                <h1 class="modal-title fs-5" id="editLabel">Edit User</h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body user-form">
+                <form id="form">
+                  <div class="mb-3 form-input">
+                    <label for="name" class="form-label">Name</label>
+                    <input
+                      type="text"
+                      class="form-control input-form"
+                      id="name"
+                      placeholder="Enter Name"
+                      autocomplete="name"
+                    >
+                    <small  class="error-msg"></small>
+                  </div>
+
+                  <div class="mb-3 form-input">
+                    <label for="email" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control input-form"
+                      id="email"
+                      placeholder="Enter Email"
+                      autocomplete="email"
+                    />
+                    <small id="error-email" class="error-msg"></small>
+                  </div>
+                  <div class="mb-3 form-input">
+                    <label for="phone" class="form-label">Phone</label>
+                    <input
+                      type="text"
+                      class="form-control input-form"
+                      id="phone"
+                      placeholder="Enter Phone"
+                      autocomplete="phone"
+                    />
+                    <small id="error-phone" class="error-msg"></small>
+                  </div>
+                  <div>
+                    <label  class="form-label">Gender</label>
+                    <div  class="d-flex gap-2" >
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="gender"
+                          id="flexRadioDefault1"
+                          value="Male"
+                        />
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Male
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="gender"
+                          id="flexRadioDefault2"
+                          value="Female"
+                        />
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          Female
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input
+                          class="form-check-input"
+                          type="radio"
+                          name="gender"
+                          id="flexRadioDefault3"
+                          value="other"
+                        />
+                        <label class="form-check-label" for="flexRadioDefault3">
+                          Other
+                        </label>
+                      </div>
+                    </div>
+                    <small id="error-gender" class="error-msg"></small>
+                  </div>
+
+                  <div class="mt-3 mb-4 form-input">
+                    <label for="selectPosition">Position</label>
+
+                    <select
+                      class="form-select input-form"
+                      id="selectPosition"
+                      aria-label="Default select example"
+                    >
+                      <option selected></option>
+                      <option value="Frontend developer">
+                        Frontend developer
+                      </option>
+                      <option value="ReactJs developer">
+                        ReactJs developer
+                      </option>
+                      <option value="Php developer">Php developer</option>
+                      <option value="backend developer">
+                        backend developer
+                      </option>
+                    </select>
+                    <small id="error-select" class="error-msg"></small>
+                  </div>
+
+                  <button
+                    type="submit"
+                    class="btn add-user-btn"
+                    id="submit-btn"
+                  >
+                    Add User
+                  </button>
+                  <button
+                    type="submit"
+                    class="btn add-user-btn"
+                    id="update-btn"
+                  >
+                    Update User
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- display data in table -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <table class="table user-table">
+              <thead class="table-dark">
+                <tr class="table-heading">
+                  <th>#</th>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Phone</th>
+                  <th>Gender</th>
+                  <th>Position</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="printData">
+                <tr class="user-row">
+                  
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

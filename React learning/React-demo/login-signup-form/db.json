@@ -1,0 +1,69 @@
+{
+  "user": [
+    {
+      "firstName": "Urielle",
+      "lastName": "Mayo",
+      "email": "cydujel@mailinator.com",
+      "confirmPass": "Pa$$w0rd!",
+      "id": 66
+    },
+    {
+      "firstName": "Willow",
+      "lastName": "Yang",
+      "email": "cirifys@mailinator.com",
+      "confirmPass": "Pa$$w0rd!",
+      "id": 67
+    },
+    {
+      "firstName": "Raven",
+      "lastName": "Aguirre",
+      "email": "qyga@mailinator.com",
+      "confirmPass": "Pa$$w0rd!",
+      "id": 68
+    },
+    {
+      "firstName": "Raven",
+      "lastName": "Aguirre",
+      "email": "qy23ga@mailinator.com",
+      "confirmPass": "ADSadsf",
+      "id": 69
+    },
+    {
+      "firstName": "swsfsdf",
+      "lastName": "sdfsdf",
+      "email": "tesing@gmail.com",
+      "confirmPass": "Arjun#123",
+      "id": 71,
+      "password": "Break@123"
+    },
+    {
+      "firstName": "Piyush ",
+      "lastName": "Bhai",
+      "email": "rozidudy@mailinator.com",
+      "confirmPass": "Arjun@123",
+      "id": 72,
+      "password": "Princy@123"
+    },
+    {
+      "firstName": "Blossom",
+      "lastName": "Bishop",
+      "email": "lerigobyr@mailinator.com",
+      "confirmPass": "Arjun#123",
+      "id": 73
+    },
+    {
+      "firstName": "piyush ",
+      "lastName": "sir",
+      "email": "test22@gmail.com",
+      "confirmPass": "Arjun@123",
+      "id": 74
+    },
+    {
+      "firstName": "dd",
+      "lastName": "dp",
+      "email": "dp@gmail.com",
+      "confirmPass": "Pd@123456",
+      "id": 75
+    }
+  ]
+}

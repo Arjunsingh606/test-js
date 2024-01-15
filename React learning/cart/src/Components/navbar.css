@@ -1,0 +1,22 @@
+.navItems{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 120px;
+    padding-left: 30px;
+    height: 60px;
+    background-color: #8c09ff;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.navbarItem{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+img{
+    height: 80px;
+}

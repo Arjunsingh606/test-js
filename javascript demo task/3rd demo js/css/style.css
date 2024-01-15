@@ -1,0 +1,458 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+.navbar-brand.nav-title {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.nav-title img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.nav-title h2 {
+  color: #5f3ad5;
+}
+.btn.modal-button {
+  background-color: transparent;
+  border: none;
+}
+span i {
+  font-size: 1.5rem;
+  color: #7d7d7d;
+}
+.user-title {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.user-title img {
+  width: 3rem;
+}
+.user-title h4 {
+  color: #767676;
+}
+.user-profile {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+.btn.dropdown-toggle{
+  transition:optional;
+}
+.btn.submit-btn {
+  background-color: #9b2f99;
+  padding: 8px 35px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  width: -webkit-fill-available;
+}
+.form-control:focus {
+  outline: 0;
+  box-shadow: none;
+  border-color: #777;
+}
+.register-body {
+  background: linear-gradient(to right, #5c35d4 0%, #9d329b 100%);
+}
+.registration-btn {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+.registration-form {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+.form-heading h3 {
+  color: #5f3ad5;
+  text-align: center;
+  font-weight: 700;
+  font-size: xx-large;
+}
+
+.input-control input:focus {
+  outline: 0;
+}
+
+.input-control.success input {
+  border-color: #09c372;
+}
+
+.input-control.error input {
+  border-color: #ff3860;
+  padding-right: calc(1.5em + 0.75rem);
+  background-image: url("https://cdn0.iconfinder.com/data/icons/shift-free/32/Error-512.png");
+  background-repeat: no-repeat;
+  background-position: right calc(0.375em + 0.1875rem) center;
+  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+}
+.input-control .error {
+  color: #ff3860;
+  font-size: 14px;
+  height: 13px;
+}
+.error {
+  color: red;
+  padding-bottom: 15px;
+}
+.user-title h4 {
+  color: #5f3ad5;
+}
+.registration-btn.logout {
+ display: none;
+} 
+
+.logout-btn:hover {
+  background-color: #9b2f99;
+}
+.registration-btn {
+  background-color: #5f3ad5;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  width: fit-content;
+  border: none;
+}
+.registration-btn:hover {
+  background-color: #9b2f99;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.submit-btn.otp-btn {
+  width: auto;
+  background: linear-gradient(to right, #5c35d4 0%, #9d329b 100%);
+}
+
+.search-input {
+  border: 2px solid #eaeaea;
+  padding: 20px 50px 20px 60px;
+  border-radius: 42px;
+  width: 60%;
+  background-color: #fbfbfb;
+  position: relative;
+}
+.search-bar {
+  text-align: center;
+  padding-top: 100px;
+}
+.search-input:focus {
+  outline: 0;
+}
+.search-bar i {
+  position: relative;
+  left: 65px;
+  transform: translateX(-50%);
+  z-index: 1;
+  color: #777777;
+  font-size: 1.2rem;
+}
+
+.modal-icon {
+  position: fixed;
+  right: 18%;
+  bottom: 50px;
+}
+.btn.btn-open {
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: #5c35d4;
+  border: none;
+}
+.modal-icon i {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-header.form-title {
+  background-color: #5c35d4;
+  color: #fff;
+}
+.color-picker {
+  display: flex;
+  gap: 1rem;
+}
+.color-background {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn.Cancel-btn {
+  background-color: #888888;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.btn.submit-notes {
+  background-color: #5f3ad5;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.notes-cards {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+.card.card-body {
+  flex: 1;
+  min-width: 300px;
+  border: none;
+  max-width: 300px;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  gap: 15px;
+}
+.card.card-body:hover > .edit {
+  display: block;
+}
+.card.card-body:hover > .delete {
+  display: block;
+}
+.card.card-body p {
+  color: #5d5e5a;
+}
+.card-body .date {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+.edit {
+  position: absolute;
+  right: 5%;
+  display: none;
+}
+.delete {
+  position: absolute;
+  right: 5%;
+  top: 3rem;
+  display: none;
+}
+span {
+  cursor: pointer;
+}
+span i {
+  font-size: 15px;
+  color: black;
+}
+
+.light-pink {
+  background-color: #eef6d0;
+}
+.light-green {
+  background-color: #a2ff81;
+}
+.light-blue {
+  background-color: #7ceaf8;
+}
+.light-yellow {
+  background-color: #ffebcd;
+}
+.light-grey {
+  background-color: #d8f3cc;
+}
+.light-red {
+  background-color: #ffd0ed;
+}
+
+/* style for modal  */
+.delete-modal {
+  width: 400px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: none;
+  border-radius: 10px;
+}
+.delete-modal-content img {
+  width: 4rem;
+  height: 4rem;
+}
+.modal-background {
+  position: fixed;
+  background-color: #24202094;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.registration-btn.delete-button {
+  background-color: red;
+  color: #fff;
+}
+.registration-btn.Cancel-button {
+  background-color: #888888;
+  color: #fff;
+}
+.logout i {
+  z-index: 1;
+}
+.delete-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 3%;
+  right: 5%;
+  font-size: 30px;
+  font-weight: 600;
+}
+.delete-modal-content {
+  padding: 3rem;
+}
+.position-modal {
+  position: fixed;
+  text-align: center;
+  right: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.dropdown-menu.menu-item {
+  top: 100%;
+  left: 20px;
+  margin-top: var(--bs-dropdown-spacer);
+}
+.btn.show {
+  border-color: #fff;
+}
+.btn:focus {
+  outline: none;
+}
+.dropdown-toggle.profile {
+  padding: 0;
+}
+.dropdown-menu.menu-item {
+  --bs-dropdown-link-active-bg: #fff;
+  --bs-dropdown-link-hover-bg: #fff;
+  border: none;
+}
+.search-error {
+  text-align: center;
+  font-size: 40px;
+  color: #5f3ad5;
+  font-weight: 700;
+}
+button:focus:not(:focus-visible) {
+  border: none;
+  outline: 0;
+}
+/* style for color picker */
+.checkRadioContainer > label > input {
+  visibility: hidden;
+}
+.checkRadioContainer > label {
+  margin-bottom: -2px;
+  cursor: pointer;
+}
+.checkRadioContainer > label {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 2em;
+  width: 2rem;
+  height: 2rem;
+  margin: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.checkRadioContainer > label > input + i {
+  visibility: hidden;
+  color: black;
+  margin-left: -0.5em;
+  margin-right: 0.2em;
+}
+.checkRadioContainer > label > input:checked + i {
+  visibility: visible;
+}
+
+/* media query */
+@media screen and (max-width: 1440px) {
+  .modal-icon {
+    right: 8%;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .notes-cards {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .search-input {
+    width: 80%;
+  }
+  .notes-cards {
+    justify-content: center;
+  }
+  .navbar {
+    flex-wrap: initial;
+  }
+}
+@media screen and (max-width: 575px) {
+  .navbar {
+    flex-wrap: nowrap;
+  }
+  .search-bar i {
+    z-index: 0;
+  }
+}
+@media screen and (max-width: 460px) {
+  .user-title {
+    gap: 0.5rem;
+  }
+  .user-profile {
+    gap: 10px;
+  }
+  .dropdown-menu[data-bs-popper] {
+    top: 100%;
+    margin-top: 10px;
+    right: 10%;
+  }
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+  }
+  .color-picker {
+    gap: 0rem;
+  }
+  .delete-modal {
+    width: 295px;
+  }
+  .search-input {
+    padding: 20px 50px 20px 35px;
+  }
+  .card.card-body {
+    max-width: 100%; 
+  }
+}

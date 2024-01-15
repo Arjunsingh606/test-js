@@ -1,0 +1,93 @@
+{
+  "ticket": [
+    {
+      "title": "Edit Lowww",
+      "description": "Typesss",
+      "tags": "Repair",
+      "assignee": "Ali  Rice",
+      "priority": "Low",
+      "ticketStatus": "In progress",
+      "created_by": "Arjun ",
+      "id": 20
+    },
+    {
+      "title": "ertert",
+      "description": "ertert",
+      "tags": "Issue",
+      "assignee": "Ciara  Pennington",
+      "priority": "Medium",
+      "ticketStatus": "In progress",
+      "created_by": "Arjun ",
+      "id": 25
+    },
+    {
+      "title": "ererty",
+      "description": "ertyrty",
+      "tags": "New",
+      "assignee": "Ciara  Pennington",
+      "priority": "High",
+      "ticketStatus": "In progress",
+      "created_by": "Garth",
+      "id": 27
+    }
+  ],
+  "user": [
+    {
+      "firstName": "Garth",
+      "lastName": "Mccoy",
+      "email": "kobeqe@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "roles": "Admin",
+      "id": 29
+    },
+    {
+      "firstName": "Orson",
+      "lastName": "Campbell",
+      "email": "lymu@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "roles": "User",
+      "id": 30
+    },
+    {
+      "firstName": "Ali",
+      "lastName": "Rice",
+      "email": "vofyruvu@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "roles": "Admin",
+      "id": 31
+    },
+    {
+      "firstName": "Ali",
+      "lastName": "Rice",
+      "email": "vofyruvu@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "roles": "Admin",
+      "id": 32
+    },
+    {
+      "firstName": "Ciara",
+      "lastName": "Pennington",
+      "email": "beqabyfoj@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "roles": "Admin",
+      "id": 33
+    },
+    {
+      "firstName": "Ciara",
+      "lastName": "Pennington",
+      "email": "beqabyfoj@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "roles": "Admin",
+      "id": 34
+    },
+    {
+      "firstName": "Arjun ",
+      "lastName": "singh",
+      "email": "rozidudy@mailinator.com",
+      "password": "Singh@123",
+      "roles": "User",
+      "id": 37
+    }
+  ],
+  "players": []
+}

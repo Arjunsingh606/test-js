@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template-06</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-2 col-nav">
+
+          <div
+            class="offcanvas-xl offcanvas-start"
+            tabindex="-1"
+            id="offcanvasResponsive"
+            aria-labelledby="offcanvasResponsiveLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">
+                <div class="nav-brand d-flex align-items-center gap-2">
+                  <i class="fa-solid fa-shapes"></i>
+                  <p>Super Finti</p>
+                </div>
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                data-bs-target="#offcanvasResponsive"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="p-4 side-nav">
+                <div class="nav-brand super-finti ">
+                  <i class="fa-solid fa-shapes"></i>
+                  <p>Super Finti</p>
+                </div>
+                <ul class="nav flex-column">
+                  <span>Main Navigation</span>
+                  <li class="nav-item">
+                    <div class="accordion nav-item" id="accordionExample">
+                      <div class="accordion-item nav-item">
+                        <h2 class="nav-link nav-list">
+                          <a
+                            class="accordion-button nav-button collapsed"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne"
+                            aria-expanded="true"
+                            aria-controls="collapseOne"
+                          >
+                            <div>
+                              <i class="fa-solid fa-location-dot"></i>
+                              <p>Dashboard</p>
+                            </div>
+                          </a>
+                        </h2>
+                        <div
+                          id="collapseOne"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body nav-body">
+                            <ul class="nav flex-column">
+                              <li class="nav-item nav-sub-list">
+                                <a
+                                  class="nav-link nav-list"
+                                  aria-current="page"
+                                  href="#"
+                                >
+                                  <div>
+                                    <i class="fa-solid fa-cubes"></i>
+                                    <p>Base Wallet</p>
+                                  </div>
+                                </a>
+                              </li>
+                              <li class="nav-item nav-sub-list">
+                                <a class="nav-link nav-list">
+                                  <div>
+                                    <i class="fa-solid fa-image"></i>
+                                    <p>My Contacts</p>
+                                  </div>
+                                </a>
+                              </li>
+                              <li class="nav-item nav-sub-list">
+                                <a class="nav-link nav-list">
+                                  <div>
+                                    <i
+                                      class="fa-solid fa-wand-magic-sparkles"
+                                    ></i>
+                                    <p>Schedules</p>
+                                  </div>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="accordion nav-item" id="accordionExample">
+                      <div class="accordion-item nav-item">
+                        <h2 class="nav-link nav-list">
+                          <a
+                            class="accordion-button nav-button collapsed"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo"
+                            aria-expanded="false"
+                            aria-controls="collapseTwo"
+                          >
+                            <div>
+                              <i class="fa-solid fa-square-plus"></i>
+                              <p>Transactions</p>
+                            </div>
+                          </a>
+                        </h2>
+                        <div
+                          id="collapseTwo"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body nav-body">
+                            <ul class="nav flex-column">
+                              <li class="nav-item nav-sub-list">
+                                <a
+                                  class="nav-link nav-list"
+                                  aria-current="page"
+                                  href="#"
+                                >
+                                  <div>
+                                    <i class="fa-solid fa-cubes"></i>
+                                    <p>Base Wallet</p>
+                                  </div>
+                                </a>
+                              </li>
+                              <li class="nav-item nav-sub-list">
+                                <a class="nav-link nav-list">
+                                  <div>
+                                    <i class="fa-solid fa-image"></i>
+                                    <p>My Contacts</p>
+                                  </div>
+                                </a>
+                              </li>
+                              <li class="nav-item nav-sub-list">
+                                <a class="nav-link nav-list">
+                                  <div>
+                                    <i
+                                      class="fa-solid fa-wand-magic-sparkles"
+                                    ></i>
+                                    <p>Schedules</p>
+                                  </div>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="accordion nav-item" id="accordionExample">
+                      <div class="accordion-item nav-item">
+                        <h2 class="nav-link nav-list">
+                          <a
+                            class="accordion-button nav-button collapsed"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree"
+                            aria-expanded="false"
+                            aria-controls="collapseThree"
+                          >
+                            <div>
+                              <i class="fa-solid fa-table-cells-large"></i>
+                              <p>Contacts</p>
+                            </div>
+                          </a>
+                        </h2>
+                        <div
+                          id="collapseThree"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body nav-body">
+                            <ul class="nav flex-column">
+                              <li class="nav-item nav-sub-list">
+                                <a
+                                  class="nav-link nav-list"
+                                  aria-current="page"
+                                  href="#"
+                                >
+                                  <div>
+                                    <i class="fa-solid fa-cubes"></i>
+                                    <p>Base Wallet</p>
+                                  </div>
+                                </a>
+                              </li>
+                              <li class="nav-item nav-sub-list">
+                                <a class="nav-link nav-list">
+                                  <div>
+                                    <i class="fa-solid fa-image"></i>
+                                    <p>My Contacts</p>
+                                  </div>
+                                </a>
+                              </li>
+
+                              <li class="nav-item nav-sub-list">
+                                <a class="nav-link nav-list">
+                                  <div>
+                                    <i
+                                      class="fa-solid fa-wand-magic-sparkles"
+                                    ></i>
+                                    <p>Schedules</p>
+                                  </div>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="accordion nav-item" id="accordionExample">
+                      <div class="accordion-item nav-item">
+                        <h2 class="nav-link nav-list">
+                          <a
+                            class="accordion-button nav-button collapsed"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour"
+                            aria-expanded="false"
+                            aria-controls="collapseFour"
+                          >
+                            <div>
+                              <i class="fa-regular fa-star-half-stroke"></i>
+                              <p>Features</p>
+                            </div>
+                          </a>
+                        </h2>
+                        <div
+                          id="collapseFour"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body nav-body">
+                            <ul class="nav flex-column">
+                              <li class="nav-item nav-sub-list">
+                                <a
+                                  class="nav-link nav-list"
+                                  aria-current="page"
+                                  href="#"
+                                >
+                                  <div>
+                                    <i class="fa-solid fa-cubes"></i>
+                                    <p>Base Wallet</p>
+                                  </div>
+                                </a>
+                              </li>
+                              <li class="nav-item nav-sub-list">
+                                <a class="nav-link nav-list">
+                                  <div>
+                                    <i class="fa-solid fa-image"></i>
+                                    <p>My Contacts</p>
+                                  </div>
+                                </a>
+                              </li>
+
+                              <li class="nav-item nav-sub-list">
+                                <a class="nav-link nav-list">
+                                  <div>
+                                    <i
+                                      class="fa-solid fa-wand-magic-sparkles"
+                                    ></i>
+                                    <p>Schedules</p>
+                                  </div>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link nav-list" href="#">
+                      <div>
+                        <i class="fa-solid fa-chart-simple"></i>
+                        <p>Library</p>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+                <!-- second accordian -->
+                <ul class="nav flex-column">
+                  <span>Settings & Schedule</span>
+                  <li class="nav-item">
+                    <div class="accordion nav-item" id="accordionExample">
+                      <div class="accordion-item nav-item">
+                        <h2 class="nav-link nav-list">
+                          <a
+                            class="accordion-button nav-button collapsed"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive"
+                            aria-expanded="true"
+                            aria-controls="collapseFive"
+                          >
+                            <div>
+                              <i class="fa-solid fa-cubes"></i>
+                              <p>Base Wallet</p>
+                            </div>
+                          </a>
+                        </h2>
+                        <div
+                          id="collapseFive"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body nav-body">
+                            <ul class="nav flex-column">
+                              <li class="nav-item nav-sub-list">
+                                <a
+                                  class="nav-link nav-list"
+                                  aria-current="page"
+                                  href="#"
+                                >
+                                  <div>
+                                    <i class="fa-solid fa-cubes"></i>
+                                    <p>Base Wallet</p>
+                                  </div>
+                                </a>
+                              </li>
+                              <li class="nav-item nav-sub-list">
+                                <a class="nav-link nav-list">
+                                  <div>
+                                    <i class="fa-solid fa-image"></i>
+                                    <p>My Contacts</p>
+                                  </div>
+                                </a>
+                              </li>
+                              <li class="nav-item nav-sub-list">
+                                <a class="nav-link nav-list">
+                                  <div>
+                                    <i
+                                      class="fa-solid fa-wand-magic-sparkles"
+                                    ></i>
+                                    <p>Schedules</p>
+                                  </div>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="accordion nav-item" id="accordionExample">
+                      <div class="accordion-item nav-item">
+                        <h2 class="nav-link nav-list">
+                          <a
+                            class="accordion-button nav-button collapsed"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix"
+                            aria-expanded="false"
+                            aria-controls="collapseSix"
+                          >
+                            <div>
+                              <i class="fa-solid fa-image"></i>
+                              <p>My Contacts</p>
+                            </div>
+                          </a>
+                        </h2>
+                        <div
+                          id="collapseSix"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body nav-body">
+                            <ul class="nav flex-column">
+                              <li class="nav-item nav-sub-list">
+                                <a
+                                  class="nav-link nav-list"
+                                  aria-current="page"
+                                  href="#"
+                                >
+                                  <div>
+                                    <i class="fa-solid fa-cubes"></i>
+                                    <p>Base Wallet</p>
+                                  </div>
+                                </a>
+                              </li>
+                              <li class="nav-item nav-sub-list">
+                                <a class="nav-link nav-list">
+                                  <div>
+                                    <i class="fa-solid fa-image"></i>
+                                    <p>My Contacts</p>
+                                  </div>
+                                </a>
+                              </li>
+                              <li class="nav-item nav-sub-list">
+                                <a class="nav-link nav-list">
+                                  <div>
+                                    <i
+                                      class="fa-solid fa-wand-magic-sparkles"
+                                    ></i>
+                                    <p>Schedules</p>
+                                  </div>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="accordion nav-item" id="accordionExample">
+                      <div class="accordion-item nav-item">
+                        <h2 class="nav-link nav-list">
+                          <a
+                            class="accordion-button nav-button collapsed"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseSeven"
+                            aria-expanded="false"
+                            aria-controls="collapseSeven"
+                          >
+                            <div>
+                              <i class="fa-solid fa-microphone"></i>
+                              <p>Invoice</p>
+                            </div>
+                          </a>
+                        </h2>
+                        <div
+                          id="collapseSeven"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body nav-body">
+                            <ul class="nav flex-column">
+                              <li class="nav-item nav-sub-list">
+                                <a
+                                  class="nav-link nav-list"
+                                  aria-current="page"
+                                  href="#"
+                                >
+                                  <div>
+                                    <i class="fa-solid fa-cubes"></i>
+                                    <p>Base Wallet</p>
+                                  </div>
+                                </a>
+                              </li>
+                              <li class="nav-item nav-sub-list">
+                                <a class="nav-link nav-list">
+                                  <div>
+                                    <i class="fa-solid fa-image"></i>
+                                    <p>My Contacts</p>
+                                  </div>
+                                </a>
+                              </li>
+
+                              <li class="nav-item nav-sub-list">
+                                <a class="nav-link nav-list">
+                                  <div>
+                                    <i
+                                      class="fa-solid fa-wand-magic-sparkles"
+                                    ></i>
+                                    <p>Schedules</p>
+                                  </div>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <div class="accordion nav-item" id="accordionExample">
+                      <div class="accordion-item nav-item">
+                        <h2 class="nav-link nav-list">
+                          <a
+                            class="accordion-button nav-button collapsed"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseEight"
+                            aria-expanded="false"
+                            aria-controls="collapseEight"
+                          >
+                            <div>
+                              <i class="fa-solid fa-wand-magic-sparkles"></i>
+                              <p>Schedules</p>
+                            </div>
+                          </a>
+                        </h2>
+                        <div
+                          id="collapseEight"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body nav-body">
+                            <ul class="nav flex-column">
+                              <li class="nav-item nav-sub-list">
+                                <a
+                                  class="nav-link nav-list"
+                                  aria-current="page"
+                                  href="#"
+                                >
+                                  <div>
+                                    <i class="fa-solid fa-cubes"></i>
+                                    <p>Base Wallet</p>
+                                  </div>
+                                </a>
+                              </li>
+                              <li class="nav-item nav-sub-list">
+                                <a class="nav-link nav-list">
+                                  <div>
+                                    <i class="fa-solid fa-image"></i>
+                                    <p>My Contacts</p>
+                                  </div>
+                                </a>
+                              </li>
+
+                              <li class="nav-item nav-sub-list">
+                                <a class="nav-link nav-list">
+                                  <div>
+                                    <i
+                                      class="fa-solid fa-wand-magic-sparkles"
+                                    ></i>
+                                    <p>Schedules</p>
+                                  </div>
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <!-- card in navbar -->
+                <div class="nav flex-column mb-auto nav-card">
+                  <div class="card card-color">
+                    <div class="card-icon">
+                      <i class="fa-solid fa-circle-question"></i>
+                    </div>
+                    <div class="card-body card-title">
+                      <h6 class="card-title">Help center</h6>
+                      <p class="card-text">
+                        Having trouble in Finti. Please contact us for Lorem
+                        ipsum dolor sit amet. more Question ?
+                      </p>
+                      <div class="d-flex justify-content-center">
+                        <a href="#" class="btn card-btn">Go to Help Center</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- main content of dashboard -->
+        <main class="col-xl-10">
+          <!-- dashboard input and profile and some dropdown -->
+          <div class="row dashboard-nav">
+            <div class="col dashboard-nav-items">
+              <div >
+                <div class="d-flex gap-2 align-items-center">
+                  <div>
+                    <button
+                      class="btn offcanvas-btn d-xl-none"
+                      type="button"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasResponsive"
+                      aria-controls="offcanvasResponsive"
+                    >
+                      <i class="fa-solid fa-bars"></i>
+                    </button>
+                  </div>
+                  <div class="dashboard-input">
+                    <input type="text" placeholder="Search.." />
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div class="d-flex justify-content-end gap-4">
+                  <div class="dropdown">
+                    <a
+                      class="dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <i class="fa-regular fa-note-sticky"></i>
+                    </a>
+                    <ul class="dropdown-menu list-item">
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="fa-regular fa-user"></i>Profile</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-cloud-arrow-down"></i
+                          >Downloads</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-gear"></i>Settings</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-tag"></i>Tags</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-helicopter-symbol"></i>Help</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="dropdown">
+                    <a
+                      class="dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <i class="fa-solid fa-briefcase"></i>
+                    </a>
+                    <ul class="dropdown-menu list-item">
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-regular fa-user"></i>Profile</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-cloud-arrow-down"></i
+                          >Downloads</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-gear"></i>Settings</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-tag"></i>Tags</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-helicopter-symbol"></i>Help</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="dropdown">
+                    <a
+                      class="dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </a>
+                    <ul class="dropdown-menu list-item">
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-regular fa-user"></i>Profile</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-cloud-arrow-down"></i
+                          >Downloads</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-gear"></i>Settings</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-tag"></i>Tags</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-helicopter-symbol"></i>Help</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div >
+                <div class="d-flex justify-content-end gap-4">
+                  <div class="dropdown drop-wallet">
+                    <a
+                      class="dropdown-toggle text-decoration-none"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Wallet
+                    </a>
+                    <ul class="dropdown-menu list-item">
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-regular fa-user"></i>Profile</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-cloud-arrow-down"></i
+                          >Downloads</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-gear"></i>Settings</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-tag"></i>Tags</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-helicopter-symbol"></i>Help</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="dropdown drop-wallet">
+                    <a
+                      class="dropdown-toggle text-decoration-none"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Invoice
+                    </a>
+                    <ul class="dropdown-menu list-item">
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-regular fa-user"></i>Profile</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-cloud-arrow-down"></i
+                          >Downloads</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-gear"></i>Settings</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-tag"></i>Tags</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-helicopter-symbol"></i>Help</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div >
+                <div
+                  class="d-flex justify-content-end text-decoration-none gap-3"
+                >
+                  <div class="dropdown drop-profile">
+                    <a
+                      class="dropdown-toggle d-flex justify-content-end text-decoration-none align-items-center gap-3"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <p>Hi, Shanker</p>
+                      <div class="profile-image">
+                        <img src="images/shanker-2.avif" alt="" />
+                      </div>
+                    </a>
+                    <ul class="dropdown-menu list-item">
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-regular fa-user"></i>Profile</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-cloud-arrow-down"></i
+                          >Downloads</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-gear"></i>Settings</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-tag"></i>Tags</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-helicopter-symbol"></i>Help</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+
+          <!-- dashboard cards -->
+          <div class="row dashboard-cards">
+            <div class="col-xl-4 col-md-6 ">
+              <div class="card dashboard-card ">
+               <div
+                class="card-body d-flex justify-content-between flex-column first-card">
+              
+                <div class="d-flex justify-content-between">
+                  <h6>Your Working Balance</h6>
+                  <a href="">Saving Account</a>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h2 class="fw-bolder">PKR 9,250,000</h2>
+                  <select
+                    class="form-select currency"
+                    aria-label="Default select example"
+                  >
+                    <option selected>PKR</option>
+                    <option value="1">INR</option>
+                    <option value="2">USD</option>
+                    <option value="3">RWD</option>
+                  </select>
+                </div>
+              </div>
+              </div>
+              <!-- <div
+                class="card-body d-flex justify-content-between flex-column first-card"
+              >
+                <div class="d-flex justify-content-between">
+                  <h6>Your Working Balance</h6>
+                  <a href="">Saving Account</a>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <h2 class="fw-bolder">PKR 9,250,000</h2>
+                  <select
+                    class="form-select currency"
+                    aria-label="Default select example"
+                  >
+                    <option selected>PKR</option>
+                    <option value="1">INR</option>
+                    <option value="2">USD</option>
+                    <option value="3">RWD</option>
+                  </select>
+                </div>
+              </div> -->
+            </div>
+            <div class="col-xl-4 col-md-6">
+              <div class="card dashboard-card second-card">
+                <div class="card-body d-flex justify-content-between flex-column">
+                  <div class="d-flex justify-content-between">
+                    <p>Your Saving Status</p>
+                    <i class="fa-solid fa-circle-question"></i>
+                  </div>
+                  <div class="d-flex gap-3">
+                    <div class="card-icon second-card-icon">
+                      <i class="fa-solid fa-cube"></i>
+                    </div>
+                    <div>
+                      <h3>4.28%</h3>
+                      <p>Your spending increased</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+            <div class="col-xl-4 col-md-6">
+              <div class="card dashboard-card third-card">
+                <div class="card-body d-flex justify-content-between flex-column">
+                  <div>
+                    <div>
+                      <i class="fa-brands fa-cc-mastercard"></i>
+                    </div>
+                    <div>
+                      <p>CARD NUMBER</p>
+                      <h5>3829 4842 4647 3452</h5>
+                    </div>
+                  </div>
+                  
+                  <div class="d-flex justify-content-between">
+                    <div>
+                      <p>CARD HOLDER NAME</p>
+                      <h5>Anita Rose</h5>
+                    </div>
+                    <div>
+                      <p>VALID UPTO</p>
+                      <h5>09/17</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+
+          <!-- statics in dashboard -->
+          <div class="statics d-flex mt-5 gap-5">
+            <div class="card">
+              <div class="card-body static-bar d-flex">
+                <div class="d-flex flex-column static-details">
+                  <h6>Tasks In Progress</h6>
+                  <div class="d-flex gap-4">
+                    <h3>210</h3>
+                    <div class="d-flex static-icon">
+                      <p>23</p>
+                      <i class="fa-solid fa-location-arrow"></i>
+                    </div>
+                  </div>
+                  <p>Current Month</p>
+                </div>
+                <div class="static-img">
+                  <img class="img-fluid" src="images/chart-1.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="card second-static-card">
+              <div class="card-body static-bar d-flex">
+                <div class="d-flex flex-column static-details">
+                  <h6>Tasks Completed</h6>
+                  <div class="d-flex gap-4">
+                    <h3>185</h3>
+                    <div class="d-flex static-icon second">
+                      <p>45</p>
+                      <i class="fa-solid fa-location-arrow"></i>
+                    </div>
+                  </div>
+                  <p>Current Month</p>
+                </div>
+                <div class="static-img">
+                  <img class="img-fluid" src="images/chart-2.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="card third-static-card">
+              <div class="card-body static-bar d-flex">
+                <div class="d-flex flex-column static-details">
+                  <h6>Monthly Tasks Summary</h6>
+                  <div class="d-flex gap-4">
+                    <h3>1.240</h3>
+                    <div class="d-flex static-icon third">
+                      <p>145</p>
+                      <i class="fa-solid fa-location-arrow"></i>
+                    </div>
+                  </div>
+                  <p>Current Month</p>
+                </div>
+                <div class="static-img">
+                  <img class="img-fluid" src="images/chart-3.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- latest transactions in dashboard -->
+          <div class="row transaction-row">
+            <div class="col-lg-8 transactions">
+              <div class="d-flex justify-content-between transaction-title">
+                <h6>Latest Transactions</h6>
+                <div class="d-flex align-items-center">
+                  <div class="dropdown">
+                    <a
+                      class="dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                    <ul class="dropdown-menu list-item">
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          <i class="fa-regular fa-user"></i>Profile</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-cloud-arrow-down"></i
+                          >Downloads</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-gear"></i>Settings</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-tag"></i>Tags</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          ><i class="fa-solid fa-helicopter-symbol"></i>Help</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+
+                  <select
+                    class="form-select currency transaction-fliter"
+                    aria-label="Default select example"
+                  >
+                    <option selected=""></option>
+                    <option value="1">Jan</option>
+                    <option value="2">Feb</option>
+                    <option value="3">Mar</option>
+                    <option value="4">May</option>
+                    <option value="5">June</option>
+                  </select>
+                </div>
+              </div>
+              <div class="transaction-list">
+                <p>Mon, Mar 1</p>
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="card-icon second-card-icon transaction-icon">
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <h6>Payment Sent to Sakir</h6>
+                  </div>
+                  <div class="transaction-amount">
+                    <h6>$560.00</h6>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="card-icon second-card-icon transaction-icon">
+                      <i class="fa-solid fa-arrow-left"></i>
+                    </div>
+                    <h6>Salary from Redwhale</h6>
+                  </div>
+                  <div>
+                    <h6>$12,200.00</h6>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="card-icon second-card-icon transaction-icon">
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <h6>Money sent to Wise.com</h6>
+                  </div>
+                  <div class="transaction-amount">
+                    <h6>$3000.00</h6>
+                  </div>
+                </div>
+                <p>Mon, Mar 1</p>
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="card-icon second-card-icon transaction-icon">
+                      <i class="fa-solid fa-arrow-left"></i>
+                    </div>
+                    <h6>Purchased Macbook Pro</h6>
+                  </div>
+                  <div class="transaction-amount">
+                    <h6>$5560.00</h6>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="d-flex align-items-center gap-3">
+                    <div class="card-icon second-card-icon transaction-icon">
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <h6>Payment Sent to Sakir</h6>
+                  </div>
+                  <div class="transaction-amount">
+                    <h6>$560.00</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="transactions upcoming-transaction">
+                <div class="d-flex justify-content-between transaction-title">
+                  <h6>Upcoming Transactions</h6>
+                  <p>View All</p>
+                </div>
+                <div class="transaction-list upcoming-list">
+                  <div class="d-flex flex-column gap-3">
+                    <p>Today</p>
+                    <div class="d-flex justify-content-between upcoming">
+                      <div class="d-flex align-items-center gap-3">
+                        <div
+                          class="card-icon second-card-icon transaction-icon upcoming-icon"
+                        >
+                          <i class="fa-solid fa-droplet"></i>
+                        </div>
+                        <div>
+                          <h6>Water Bill</h6>
+                          <p>Unsuccessfully</p>
+                        </div>
+                      </div>
+                      <div class="transaction-amount">
+                        <h6>-$280.00</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-column gap-3">
+                    <p>Tomorrow</p>
+                    <div class="d-flex justify-content-between upcoming">
+                      <div class="d-flex align-items-center gap-3">
+                        <div
+                          class="card-icon second-card-icon upcoming-icon transaction-icon salary-icon"
+                        >
+                          <i class="fa-solid fa-file-invoice-dollar"></i>
+                        </div>
+                        <div>
+                          <h6>Income:Salary Oct</h6>
+                          <p>Successfully</p>
+                        </div>
+                      </div>
+                      <div class="transaction-amount">
+                        <h6>+$1200.00</h6>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-between upcoming">
+                      <div class="d-flex align-items-center gap-3">
+                        <div
+                          class="card-icon second-card-icon upcoming-icon bill-icon transaction-icon"
+                        >
+                          <i class="fa-solid fa-plug"></i>
+                        </div>
+                        <div>
+                          <h6>Electric Bill</h6>
+                          <p>Successfully</p>
+                        </div>
+                      </div>
+                      <div class="transaction-amount">
+                        <h6>-$480.00</h6>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-between upcoming">
+                      <div class="d-flex align-items-center gap-3">
+                        <div
+                          class="card-icon second-card-icon upcoming-icon transaction-icon income-icon"
+                        >
+                          <i class="fa-solid fa-file-invoice"></i>
+                        </div>
+                        <div>
+                          <h6>Income: Jane transfer</h6>
+                          <p>Successfully</p>
+                        </div>
+                      </div>
+                      <div class="transaction-amount">
+                        <h6>+$500.00</h6>
+                      </div>
+                    </div>
+                    <div class="d-flex justify-content-between upcoming">
+                      <div class="d-flex align-items-center gap-3">
+                        <div
+                          class="card-icon second-card-icon upcoming-icon transaction-icon income-icon"
+                        >
+                          <i class="fa-solid fa-file-invoice"></i>
+                        </div>
+                        <div>
+                          <h6>Income: Jane transfer</h6>
+                          <p>Successfully</p>
+                        </div>
+                      </div>
+                      <div class="transaction-amount">
+                        <h6>-$280.00</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

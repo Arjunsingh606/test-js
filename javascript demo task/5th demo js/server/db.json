@@ -1,0 +1,196 @@
+{
+  "person": [
+    {
+      "id": 1,
+      "firstName": "Jhon",
+      "lastName": "Doe",
+      "details": [
+        {
+          "startDate": "02/02/2023",
+          "endDate": "10/05/2023",
+          "role": "internship",
+          "salary": "5000"
+        },
+        {
+          "startDate": "11/20/2023",
+          "endDate": "04/05/2024",
+          "role": "internship",
+          "salary": "5000"
+        },
+        {
+          "startDate": "05/02/2024",
+          "endDate": "10/05/2025",
+          "role": "employment",
+          "salary": "10000"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "firstName": "Rohit",
+      "lastName": "Sharma",
+      "details": [
+        {
+          "startDate": "09/02/2022",
+          "endDate": "06/05/2023",
+          "role": "internship",
+          "salary": "5000"
+        },
+        {
+          "startDate": "11/02/2023",
+          "endDate": "10/05/2025",
+          "role": "employment",
+          "salary": "10000"
+        },
+        {
+          "startDate": "11/02/2025",
+          "endDate": "04/05/2026",
+          "role": "employment",
+          "salary": "10000"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "firstName": "Shubamn",
+      "lastName": "Gill",
+      "details": [
+        {
+          "startDate": "02/02/2021",
+          "endDate": "04/05/2022",
+          "role": "internship",
+          "salary": "5000"
+        },
+        {
+          "startDate": "02/02/2022",
+          "endDate": "05/05/2023",
+          "role": "employment",
+          "salary": "10000"
+        },
+        {
+          "startDate": "11/02/2023",
+          "endDate": "10/05/2024",
+          "role": "employment",
+          "salary": "10000"
+        },
+        {
+          "startDate": "12/02/2024",
+          "endDate": "10/05/2026",
+          "role": "employment",
+          "salary": "10000"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "firstName": "Virat",
+      "lastName": "Kholi",
+      "details": [
+        {
+          "startDate": "12/02/2020",
+          "endDate": "12/05/2021",
+          "role": "internship",
+          "salary": "5000"
+        },
+        {
+          "startDate": "02/02/2022",
+          "endDate": "10/05/2023",
+          "role": "employment",
+          "salary": "10000"
+        },
+        {
+          "startDate": "04/02/2024",
+          "endDate": "10/05/2025",
+          "role": "employment",
+          "salary": "10000"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "firstName": "Shreyash",
+      "lastName": "Ayyar",
+      "details": [
+        {
+          "startDate": "02/02/2018",
+          "endDate": "10/05/2019",
+          "role": "internship",
+          "salary": "5000"
+        },
+        {
+          "startDate": "02/02/2020",
+          "endDate": "10/05/2023",
+          "role": "employment",
+          "salary": "10000"
+        },
+        {
+          "startDate": "12/02/2023",
+          "endDate": "10/05/2024",
+          "role": "employment",
+          "salary": "10000"
+        },
+        {
+          "startDate": "12/02/2024",
+          "endDate": "10/05/2026",
+          "role": "employment",
+          "salary": "10000"
+        },
+        {
+          "startDate": "12/02/2026",
+          "endDate": "10/05/2028",
+          "role": "employment",
+          "salary": "10000"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "firstName": "Surya",
+      "lastName": "Kumar",
+      "details": [
+        {
+          "startDate": "02/02/2015",
+          "endDate": "10/05/2016",
+          "role": "internship",
+          "salary": "5000"
+        },
+        {
+          "startDate": "02/02/2017",
+          "endDate": "10/05/2020",
+          "role": "employment",
+          "salary": "10000"
+        },
+        {
+          "startDate": "11/02/2020",
+          "endDate": "10/05/2021",
+          "role": "employment",
+          "salary": "10000"
+        },
+        {
+          "startDate": "11/02/2021",
+          "endDate": "10/05/2023",
+          "role": "employment",
+          "salary": "10000"
+        },
+        {
+          "startDate": "12/02/2023",
+          "endDate": "10/05/2025",
+          "role": "employment",
+          "salary": "10000"
+        },
+        {
+          "startDate": "12/02/2025",
+          "endDate": "12/05/2026",
+          "role": "employment",
+          "salary": "10000"
+        },
+        {
+          "startDate": "11/02/2026",
+          "endDate": "10/05/2028",
+          "role": "employment",
+          "salary": "10000"
+        }
+      ]
+    }
+  ]
+}

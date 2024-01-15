@@ -1,0 +1,39 @@
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaeaea;
+  padding: 3rem 0;
+}
+.form-field {
+  text-align: left;
+}
+.password-title {
+  display: flex;
+  justify-content: space-between;
+}
+.password-title a {
+  color: #d99674;
+}
+.sign-up-link {
+  padding-top: 1.5rem;
+}
+.sign-up-link a {
+  color: #c86a3b;
+  text-decoration: none;
+  font-weight: 400;
+}
+.btn.form-btn {
+  background-color: #c15722;
+  border: none;
+  width: -webkit-fill-available;
+  margin-top: 10px;
+}
+.btn.form-btn:hover {
+  background-color: #db8942;
+}
+.main-form {
+  background-color: white;
+  height: 100%;
+  padding: 3.5rem;
+}

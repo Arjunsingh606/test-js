@@ -1,0 +1,191 @@
+{
+  "users": [
+    {
+      "firstName": "Hector",
+      "lastName": "Olson",
+      "email": "kotyxeta@mailinator.com",
+      "password": "Culpa quae eiusmod ",
+      "role": "",
+      "Role": "User",
+      "id": 128
+    },
+    {
+      "firstName": "India",
+      "lastName": "Pope",
+      "email": "ketifaw@mailinator.com",
+      "password": "Eum error incididunt",
+      "role": "User",
+      "id": 129
+    },
+    {
+      "firstName": "Chaim",
+      "lastName": "Vance",
+      "email": "honugelej@mailinator.com",
+      "password": "Adipisicing fugit r",
+      "role": "Admin",
+      "id": 130
+    },
+    {
+      "firstName": "Arjun",
+      "lastName": "Singh",
+      "email": "singharjun.u@gmail.com",
+      "password": "rahul@123",
+      "role": "Admin",
+      "id": 131
+    },
+    {
+      "firstName": "Arjun",
+      "lastName": "Singh",
+      "email": "singharjun.u@gmail.com",
+      "password": "rahul123ii",
+      "role": "User",
+      "id": 132
+    },
+    {
+      "firstName": "Samantha",
+      "lastName": "Hayes",
+      "email": "hywihuq@mailinator.com",
+      "password": "Fugit cupiditate al",
+      "role": "User",
+      "id": 133
+    },
+    {
+      "firstName": "Quynn",
+      "lastName": "Anderson",
+      "email": "kapo@mailinator.com",
+      "password": "In est cumque delect",
+      "role": "Admin",
+      "id": 134
+    },
+    {
+      "firstName": "Rahul",
+      "lastName": "Savaliya",
+      "email": "singharjun.u@gmail.com",
+      "password": "Arjun@1234",
+      "role": "Admin",
+      "id": 135
+    }
+  ],
+  "ticket": [
+    {
+      "title": "Velit mollit cupidi",
+      "description": "Laboriosam aut quo ",
+      "name": "Samantha Hayes",
+      "tags": "Issue",
+      "priority": "Low",
+      "date": "1/8/2024",
+      "createdBy": "Arjun Singh",
+      "id": 142
+    },
+    {
+      "title": "Rerum reiciendis quo",
+      "description": "Quo pariatur Obcaec",
+      "name": "Chaim Vance",
+      "tags": "Issue",
+      "priority": "Medium",
+      "date": "1/8/2024",
+      "createdBy": "Arjun Singh",
+      "id": 143
+    },
+    {
+      "title": "Tempor et sit neque ",
+      "description": "Eos delectus qui om",
+      "name": "India Pope",
+      "tags": "Issue",
+      "priority": "Medium",
+      "date": "1/8/2024",
+      "createdBy": "Rahul Savaliya",
+      "id": 144
+    },
+    {
+      "title": "Eum unde sunt minus",
+      "description": "Duis maxime obcaecat",
+      "name": "Chaim Vance",
+      "tags": "Issue",
+      "priority": "High",
+      "date": "1/8/2024",
+      "createdBy": "Rahul Savaliya",
+      "id": 145
+    },
+    {
+      "title": "Ut vel quam totam al",
+      "description": "Corrupti qui commod",
+      "name": "Hector Olson",
+      "tags": "New",
+      "priority": "Medium",
+      "date": "1/8/2024",
+      "createdBy": "Chaim Vance",
+      "id": 146
+    },
+    {
+      "title": "Nisi neque doloribus",
+      "description": "Deserunt harum saepe",
+      "name": "Arjun Singh",
+      "tags": "Replace",
+      "priority": "High",
+      "date": "1/8/2024",
+      "createdBy": "Chaim Vance",
+      "id": 147
+    },
+    {
+      "title": "Pariatur Aut repell",
+      "description": "Veritatis laboriosam",
+      "name": "Hector Olson",
+      "tags": "New",
+      "priority": "High",
+      "date": "1/8/2024",
+      "createdBy": "Chaim Vance",
+      "id": 148
+    },
+    {
+      "title": "Aspernatur ipsum ill",
+      "description": "Earum quasi minima l",
+      "name": "Chaim Vance",
+      "tags": "Issue",
+      "priority": "High",
+      "date": "1/8/2024",
+      "createdBy": "Chaim Vance",
+      "id": 149
+    },
+    {
+      "title": "Consequatur ut dese",
+      "description": "Nesciunt eum atque ",
+      "name": "Chaim Vance",
+      "tags": "Issue",
+      "priority": "Medium",
+      "date": "1/8/2024",
+      "createdBy": "Arjun Singh",
+      "id": 150
+    },
+    {
+      "title": "Sed qui voluptatibus",
+      "description": "In sint veniam fuga",
+      "name": "Samantha Hayes",
+      "tags": "Select Tags",
+      "priority": "High",
+      "date": "1/8/2024",
+      "createdBy": "Arjun Singh",
+      "id": 151
+    },
+    {
+      "title": "Sed qui voluptatibus",
+      "description": "In sint veniam fuga",
+      "name": "Samantha Hayes",
+      "tags": "Select Tags",
+      "priority": "High",
+      "date": "1/8/2024",
+      "createdBy": "Arjun Singh",
+      "id": 152
+    },
+    {
+      "title": "Sit possimus ad und",
+      "description": "Quibusdam voluptatum",
+      "name": "India Pope",
+      "tags": "New",
+      "priority": "Low",
+      "date": "1/8/2024",
+      "createdBy": "Arjun Singh",
+      "id": 153
+    }
+  ]
+}

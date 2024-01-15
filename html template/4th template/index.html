@@ -1,0 +1,1423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template-04</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section -->
+    <section class="header-section">
+      <!-- navbar section -->
+      <header>
+        <div class="container">
+          <nav class="navbar navbar-expand-xl py-3">
+            <div class="nav-logo">
+              <img src="images/nav-logo-removebg-preview.png" alt="" />
+              <div class="nav-title">
+                <a class="navbar-brand" href="#"> Homelisti </a>
+                <a href="">wp realestate</a>
+              </div>
+            </div>
+
+            <button
+              class="navbar-toggler hamburger-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-position navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav navbar-responsive me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Home
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                  <ul class="dropdown-menu navbar-dropdown-menu">
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <i class="fa-solid fa-user-plus"></i>Account
+                      </button>
+                    </li>
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <i class="fa-solid fa-life-ring"></i>Support
+                      </button>
+                    </li>
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <i class="fa-solid fa-square-poll-horizontal"></i>Wish
+                        List
+                      </button>
+                    </li>
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <i class="fa-solid fa-crown"></i>Upgrade
+                      </button>
+                    </li>
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <i class="fa-solid fa-retweet"></i>Refferal
+                      </button>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Property
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                  <ul class="dropdown-menu navbar-dropdown-menu">
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <i class="fa-solid fa-user-plus"></i>Account
+                      </button>
+                    </li>
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <i class="fa-solid fa-life-ring"></i>Support
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <i class="fa-solid fa-retweet"></i>Refferal
+                      </button>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Pages
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                  <ul class="dropdown-menu navbar-dropdown-menu">
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <i class="fa-solid fa-user-plus"></i>Account
+                      </button>
+                    </li>
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <i class="fa-solid fa-life-ring"></i>Support
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <i class="fa-solid fa-retweet"></i>Refferal
+                      </button>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+              <div class="navbar-icons">
+                <div class="d-flex gap-4">
+                  <div class="nav-icon">
+                    <a href=""
+                      ><i class="fa-solid fa-arrow-right-arrow-left"></i
+                    ></a>
+                    <div class="nav-icon-stat">0</div>
+                  </div>
+                  <div class="nav-icon">
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <div class="nav-icon-stat">0</div>
+                  </div>
+                  <div class="nav-icon">
+                    <a href=""><i class="fa-regular fa-user"></i></a>
+                  </div>
+                </div>
+
+                <!-- dropdown button -->
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-navbar btndropdown-toggle dropdown-toggle-split"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                    <i class="fa-solid fa-circle-plus"></i>
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-navbar add-btn"
+                  >
+                    Add Property
+                  </button>
+
+                  <ul class="dropdown-menu">
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <i class="fa-solid fa-user-plus"></i>Account
+                      </button>
+                    </li>
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <i class="fa-solid fa-life-ring"></i>Support
+                      </button>
+                    </li>
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <i class="fa-solid fa-square-poll-horizontal"></i>Wish
+                        List
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <!-- home-page section -->
+      <div class="container pt-5">
+        <div class="row py-5">
+          <div class="col home-page-title">
+            <h1>Find the perfect place to Live with your faimly</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col home-page-item">
+            <div class="home-page-products">
+              <a href=""
+                ><div class="nav-icon home-page-icon">
+                  <i class="fa-solid fa-building"></i>
+                </div>
+                Apartments</a
+              >
+            </div>
+            <div class="home-page-products">
+              <a href=""
+                ><div class="nav-icon home-page-icon">
+                  <i class="fa-solid fa-house"></i>
+                </div>
+                Home</a
+              >
+            </div>
+            <div class="home-page-products">
+              <a href="">
+                <div class="nav-icon home-page-icon">
+                  <i class="fa-solid fa-briefcase"></i>
+                </div>
+                Office</a
+              >
+            </div>
+            <div class="home-page-products">
+              <a href=""
+                ><div class="nav-icon home-page-icon">
+                  <i class="fa-solid fa-basket-shopping"></i>
+                </div>
+                Shop</a
+              >
+            </div>
+            <div class="home-page-products">
+              <a href=""
+                ><div class="nav-icon home-page-icon">
+                  <i class="fa-regular fa-building"></i>
+                </div>
+                Villa</a
+              >
+            </div>
+            <div class="home-page-products">
+              <a href="">
+                <div class="nav-icon home home-page-icon">
+                  <i class="fa-solid fa-utensils"></i>
+                </div>
+                Restaurent</a
+              >
+            </div>
+          </div>
+          <div class="row flex-column py-4">
+            <div class="col home-page-title home-page-search">
+              <input type="text" placeholder="Enter keyword here.." />
+              <select
+                class="form-select home-page-select select-property"
+                aria-label="Default select example"
+              >
+                <option selected>Property Type</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <select
+                class="form-select home-page-select select-cities"
+                aria-label="Default select example"
+              >
+                <option selected>All cities</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <div class="filter-home-page">
+                <a href=""><i class="fa-solid fa-sliders"></i></a>
+              </div>
+              <div class="btn btn-primary btn-navbar search">
+                SEARCH<i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+            <div class="col home-page-title">
+              <h4>
+                We have more than
+                <span class="fw-bold text-white">54,000</span> apartment, place
+                & plot
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- our client section -->
+    <section class="client-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 client-title">
+            <h6><i class="fa-solid fa-circle"></i>OUR CLIENT</h6>
+            <h3>We're going to become partners for the long run</h3>
+            <p>
+              Ghen an unknown printer took a Lorem ipsum dolor sit amet
+              consectetur provident inventore quod sed temporibus magni suscipit
+              repellat dolorum.
+            </p>
+          </div>
+          <div class="col-lg-8 clients-img">
+            <div><img src="images/client-1.jpg" alt="" /></div>
+            <div><img src="images/client-2.avif" alt="" /></div>
+            <div><img src="images/client-3.png" alt="" /></div>
+            <div><img src="images/client-3.png" alt="" /></div>
+            <div><img src="images/client-1.jpg" alt="" /></div>
+            <div><img src="images/client-2.avif" alt="" /></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- properties section -->
+    <section class="properties-section">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-md-6 client-title properties-title">
+            <h6><i class="fa-solid fa-circle"></i>OUR PROPERTIES</h6>
+            <h3>Latest Properties</h3>
+          </div>
+          <div class="col-md-6">
+            <ul
+              class="nav nav-pills properties-tabs"
+              id="pills-tab"
+              role="tablist"
+            >
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link property-tab"
+                  id="pills-home-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-home"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-home"
+                  aria-selected="true"
+                >
+                  All Type
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link property-tab"
+                  id="pills-profile-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-profile"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-profile"
+                  aria-selected="false"
+                >
+                  For Sell
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link property-tab"
+                  id="pills-contact-tab"
+                  data-bs-toggle="pill"
+                  data-bs-target="#pills-contact"
+                  type="button"
+                  role="tab"
+                  aria-controls="pills-contact"
+                  aria-selected="false"
+                >
+                  For Rent
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-home"
+              role="tabpanel"
+              aria-labelledby="pills-home-tab"
+            >
+              <div class="row properties-cards">
+                <div class="col properties-card">
+                  <div class="card">
+                    <img
+                      src="images/property-5.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="sell-card-apartment">
+                      <h5><i class="fa-solid fa-circle"></i>For Sell</h5>
+                      <h4>$15,000 <span>/mo</span></h4>
+                      <p>Appartment</p>
+                    </div>
+                    <div class="card-body card-selling">
+                      <h4>Faimly House For Sell</h4>
+                      <p>
+                        <i class="fa-solid fa-location-dot"></i
+                        >Downey,California
+                      </p>
+                      <div class="d-flex justify-content-between">
+                        <div class="sell-card-facilities">
+                          <div class="sell-card-icon">
+                            <i class="fa-solid fa-bed"></i>
+                          </div>
+                          <p>Bed: 03</p>
+                        </div>
+                        <div class="sell-card-facilities">
+                          <div class="sell-card-icon">
+                            <i class="fa-solid fa-shower"></i>
+                          </div>
+                          <p>Bath: 02</p>
+                        </div>
+                        <div class="sell-card-facilities">
+                          <div class="sell-card-icon">
+                            <i class="fa-solid fa-cube"></i>
+                          </div>
+                          <p>931 Sqft</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col properties-card">
+                  <div class="card">
+                    <img
+                      src="images/property-2.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="sell-card-apartment">
+                      <h5><i class="fa-solid fa-circle"></i>For Rent</h5>
+                      <h4>$15,000 <span>/mo</span></h4>
+                      <p>Villa</p>
+                    </div>
+                    <div class="card-body card-selling">
+                      <h4>Countryside Moderen View</h4>
+                      <p>
+                        <i class="fa-solid fa-location-dot"></i
+                        >Downey,California
+                      </p>
+                      <div class="d-flex justify-content-between">
+                        <div class="sell-card-facilities">
+                          <div class="sell-card-icon">
+                            <i class="fa-solid fa-bed"></i>
+                          </div>
+                          <p>Bed: 03</p>
+                        </div>
+                        <div class="sell-card-facilities">
+                          <div class="sell-card-icon">
+                            <i class="fa-solid fa-shower"></i>
+                          </div>
+                          <p>Bath: 02</p>
+                        </div>
+                        <div class="sell-card-facilities">
+                          <div class="sell-card-icon">
+                            <i class="fa-solid fa-cube"></i>
+                          </div>
+                          <p>931 Sqft</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col properties-card">
+                  <div class="card">
+                    <img
+                      src="images/property-3.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="sell-card-apartment">
+                      <h5><i class="fa-solid fa-circle"></i>For Sell</h5>
+                      <h4>$15,000 <span>/mo</span></h4>
+                      <p>Office</p>
+                    </div>
+                    <div class="card-body card-selling">
+                      <h4>Gorgius Appartment Building</h4>
+                      <p>
+                        <i class="fa-solid fa-location-dot"></i
+                        >Downey,California
+                      </p>
+                      <div class="d-flex justify-content-between">
+                        <div class="sell-card-facilities">
+                          <div class="sell-card-icon">
+                            <i class="fa-solid fa-bed"></i>
+                          </div>
+                          <p>Bed: 03</p>
+                        </div>
+                        <div class="sell-card-facilities">
+                          <div class="sell-card-icon">
+                            <i class="fa-solid fa-shower"></i>
+                          </div>
+                          <p>Bath: 02</p>
+                        </div>
+                        <div class="sell-card-facilities">
+                          <div class="sell-card-icon">
+                            <i class="fa-solid fa-cube"></i>
+                          </div>
+                          <p>931 Sqft</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col properties-card">
+                  <div class="card">
+                    <img
+                      src="images/property-4.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="sell-card-apartment">
+                      <h5><i class="fa-solid fa-circle"></i>For Rent</h5>
+                      <h4>$15,000 <span>/mo</span></h4>
+                      <p>Commercial</p>
+                    </div>
+                    <div class="card-body card-selling">
+                      <h4>Countryside Moderen View</h4>
+                      <p>
+                        <i class="fa-solid fa-location-dot"></i
+                        >Downey,California
+                      </p>
+                      <div class="d-flex justify-content-between">
+                        <div class="sell-card-facilities">
+                          <div class="sell-card-icon">
+                            <i class="fa-solid fa-bed"></i>
+                          </div>
+                          <p>Bed: 03</p>
+                        </div>
+                        <div class="sell-card-facilities">
+                          <div class="sell-card-icon">
+                            <i class="fa-solid fa-shower"></i>
+                          </div>
+                          <p>Bath: 02</p>
+                        </div>
+                        <div class="sell-card-facilities">
+                          <div class="sell-card-icon">
+                            <i class="fa-solid fa-cube"></i>
+                          </div>
+                          <p>931 Sqft</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col properties-card">
+                  <div class="card">
+                    <img
+                      src="images/property-1.avif"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="sell-card-apartment">
+                      <h5><i class="fa-solid fa-circle"></i>For Sell</h5>
+                      <h4>$15,000 <span>/mo</span></h4>
+                      <p>Villa</p>
+                    </div>
+                    <div class="card-body card-selling">
+                      <h4>Gorgius Appartment Building</h4>
+                      <p>
+                        <i class="fa-solid fa-location-dot"></i
+                        >Downey,California
+                      </p>
+                      <div class="d-flex justify-content-between">
+                        <div class="sell-card-facilities">
+                          <div class="sell-card-icon">
+                            <i class="fa-solid fa-bed"></i>
+                          </div>
+                          <p>Bed: 03</p>
+                        </div>
+                        <div class="sell-card-facilities">
+                          <div class="sell-card-icon">
+                            <i class="fa-solid fa-shower"></i>
+                          </div>
+                          <p>Bath: 02</p>
+                        </div>
+                        <div class="sell-card-facilities">
+                          <div class="sell-card-icon">
+                            <i class="fa-solid fa-cube"></i>
+                          </div>
+                          <p>931 Sqft</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col properties-card">
+                  <div class="card">
+                    <img
+                      src="images/property-6.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="sell-card-apartment">
+                      <h5><i class="fa-solid fa-circle"></i>For Rent</h5>
+                      <h4>$15,000 <span>/mo</span></h4>
+                      <p>Appartment</p>
+                    </div>
+                    <div class="card-body card-selling">
+                      <h4>Faimly House For Sell</h4>
+                      <p>
+                        <i class="fa-solid fa-location-dot"></i
+                        >Downey,California
+                      </p>
+                      <div class="d-flex justify-content-between">
+                        <div class="sell-card-facilities">
+                          <div class="sell-card-icon">
+                            <i class="fa-solid fa-bed"></i>
+                          </div>
+                          <p>Bed: 03</p>
+                        </div>
+                        <div class="sell-card-facilities">
+                          <div class="sell-card-icon">
+                            <i class="fa-solid fa-shower"></i>
+                          </div>
+                          <p>Bath: 02</p>
+                        </div>
+                        <div class="sell-card-facilities">
+                          <div class="sell-card-icon">
+                            <i class="fa-solid fa-cube"></i>
+                          </div>
+                          <p>931 Sqft</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why choose our property -->
+    <section class="why-choose-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="why-choose-img">
+              <img class="img-fluid" src="images/why-choose-img.avif" alt="" />
+              <div
+                class="nav-icon home-page-icon modal-video"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                <i class="bi bi-play-fill"></i>
+              </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal-dialog modal-dialog-centered">
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        Meeting video
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div
+                      class="modal-body embed-responsive embed-responsive-4by3"
+                    >
+                      <iframe
+                        class="embed-responsive-item"
+                        id="Geeks3"
+                        width="100%"
+                        height="300"
+                        src="https://www.youtube.com/embed/tgbNymZ7vqY"
+                        frameborder="0"
+                        allowfullscreen
+                      >
+                      </iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 client-title why-choose-title">
+            <h6><i class="fa-solid fa-circle"></i>WHY CHOOSE OUR PROPERTIES</h6>
+            <h3>The expert in local and international property</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              assumenda dolores, eos dolorum ad fugit expedita sunt eveniet,
+              architecto fuga culpa consectetur nobis provident aliquid.
+            </p>
+            <div>
+              <div class="why-choose-facilities">
+                <div><i class="fa-sharp fa-solid fa-check"></i></div>
+
+                <p>Outstanding property</p>
+              </div>
+              <div class="why-choose-facilities">
+                <div><i class="fa-sharp fa-solid fa-check"></i></div>
+                <p>Moderen City Locations</p>
+              </div>
+              <div class="why-choose-facilities">
+                <div><i class="fa-sharp fa-solid fa-check"></i></div>
+                <p>Specialist services</p>
+              </div>
+              <div class="why-choose-facilities">
+                <div><i class="fa-sharp fa-solid fa-check"></i></div>
+                <p>Market Leading Research</p>
+              </div>
+              <div class="btn btn-primary read-more-btn">Read More</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- top area section -->
+    <section class="top-area-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 client-title properties-title">
+            <h6><i class="fa-solid fa-circle"></i>TOP AREA</h6>
+            <h3>Find Your Neighborhood</h3>
+          </div>
+          <div class="col-md-6 top-area-button">
+            <button class="btn btn-primary read-more-btn top-area-btn">
+              Explore More
+            </button>
+          </div>
+        </div>
+        <div class="row top-area-cards">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 top-area-card">
+            <div class="card">
+              <img src="images/top-area-2.png" class="card-img-top" alt="..." />
+              <div class="card-body card-selling top-area-tile">
+                <div>
+                  <p>02 Properties</p>
+                  <h4>San francisco</h4>
+                </div>
+                <div class="sell-card-icon top-area-icon">
+                  <i class="fa-solid fa-arrow-up"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 top-area-card">
+            <div class="card">
+              <img
+                src="images/top-area-1.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body card-selling top-area-tile">
+                <div>
+                  <p>02 Properties</p>
+                  <h4>Los Angles</h4>
+                </div>
+                <div class="sell-card-icon top-area-icon">
+                  <i class="fa-solid fa-arrow-up"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 top-area-card">
+            <div class="card">
+              <img src="images/top-area-3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body card-selling top-area-tile">
+                <div>
+                  <p>02 Properties</p>
+                  <h4>Melbourne</h4>
+                </div>
+                <div class="sell-card-icon top-area-icon">
+                  <i class="fa-solid fa-arrow-up"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 top-area-card">
+            <div class="card">
+              <img
+                src="images/top-area-4.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body card-selling top-area-tile">
+                <div>
+                  <p>02 Properties</p>
+                  <h4>Sydney</h4>
+                </div>
+                <div class="sell-card-icon top-area-icon">
+                  <i class="fa-solid fa-arrow-up"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ..let take a tour -->
+    <section class="take-tour-section">
+      <div class="container">
+        <div class="row align-items-center take-tour-row">
+          <div class="col-lg-5 client-title take-tour">
+            <h6><i class="fa-solid fa-circle"></i>LET'S TAKE A TOUR</h6>
+            <h3>Search Properties Smarter, Quicker & Anywhere</h3>
+            <div class="d-flex gap-5 align-items-center">
+              <div
+                class="nav-icon home-page-icon modal-video take-tour-video"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                <i class="bi bi-play-fill"></i>
+              </div>
+              <p>Watch video</p>
+            </div>
+            <!-- Modal -->
+            <div class="modal-dialog modal-dialog-centered">
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        Meeting video
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div
+                      class="modal-body embed-responsive embed-responsive-4by3"
+                    >
+                      <iframe
+                        class="embed-responsive-item"
+                        id="Geeks3"
+                        width="100%"
+                        height="300"
+                        src="https://www.youtube.com/embed/tgbNymZ7vqY"
+                        frameborder="0"
+                        allowfullscreen
+                      >
+                      </iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7 property-for-all">
+            <h3>Property For All</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- experties section -->
+    <section class="top-area-section experties">
+      <div class="container">
+        <div class="row">
+          <div class="col client-title experties-title">
+            <h6><i class="fa-solid fa-circle"></i>EXPERTIES IS HERE</h6>
+            <h3>Our Exclusive Agents</h3>
+          </div>
+        </div>
+        <div class="row top-area-cards">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 top-area-card">
+            <div class="card expert-card">
+              <img src="images/expert-1.avif" class="card-img-top" alt="..." />
+              <div class="sell-card-apartment expert-listing">
+                <h5><i class="fa-solid fa-circle"></i>08 Listings</h5>
+              </div>
+              <div class="card-body card-selling top-area-tile expert-details">
+                <div>
+                  <h4>Andren Willium</h4>
+                  <p>Sunshine</p>
+                  <a href=""
+                    ><i class="fa-solid fa-phone"></i>Call: +123 699 7700</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 top-area-card">
+            <div class="card expert-card">
+              <img src="images/expert-22.webp" class="card-img-top" alt="..." />
+              <div class="sell-card-apartment expert-listing">
+                <h5><i class="fa-solid fa-circle"></i>07 Listings</h5>
+              </div>
+              <div class="card-body card-selling top-area-tile expert-details">
+                <div>
+                  <h4>Poly Matzinger</h4>
+                  <p>Sweet Home</p>
+                  <a href=""
+                    ><i class="fa-solid fa-phone"></i>Call: +123 699 7700</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 top-area-card">
+            <div class="card expert-card">
+              <img src="images/expert-33.avif" class="card-img-top" alt="..." />
+              <div class="sell-card-apartment expert-listing">
+                <h5><i class="fa-solid fa-circle"></i>11 Listings</h5>
+              </div>
+              <div class="card-body card-selling top-area-tile expert-details">
+                <div>
+                  <h4>Patty Watson</h4>
+                  <p>Eco Builders</p>
+                  <a href=""
+                    ><i class="fa-solid fa-phone"></i>Call: +123 699 7700</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 top-area-card">
+            <div class="card expert-card">
+              <img
+                src="images/expert-444.avif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="sell-card-apartment expert-listing">
+                <h5><i class="fa-solid fa-circle"></i>06 Listings</h5>
+              </div>
+              <div class="card-body card-selling top-area-tile expert-details">
+                <div>
+                  <h4>Sarah Boysen</h4>
+                  <p>Mark Street</p>
+                  <a href=""
+                    ><i class="fa-solid fa-phone"></i>Call: +123 699 7700</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row become-an-agents">
+          <div class="col client-title become-agents">
+            <div class="agents-card">
+              <div class="sell-card-icon agents-icon">
+                <i class="fa-solid fa-users"></i>
+              </div>
+              <div>
+                <h3>Becone an Agents</h3>
+                <p>Agents hen an unknown printer took a galley scramble</p>
+              </div>
+            </div>
+            <div><button class="btn join-now-btn">Join Now</button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Real state by number section -->
+    <section class="realstate">
+      <div class="container">
+        <div class="row">
+          <div class="col client-title real-state-title">
+            <h3>Real State by the numbers</h3>
+            <p>In 2022 things look like this percentage</p>
+          </div>
+        </div>
+        <div class="row real-state-statics">
+          <div class="col">
+            <div class="real-state-numbers">
+              <h3>80%</h3>
+              <p>Completed Property</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="real-state-numbers">
+              <h3>27%</h3>
+              <p>Property Taxes</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="real-state-numbers">
+              <h3>99%</h3>
+              <p>Satisfied Customer</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="real-state-numbers">
+              <h3>55%</h3>
+              <p>Home Ownership</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- customers reviews -->
+    <section class="customer-review-section">
+      <div class="container">
+        <div class="row">
+          <div class="col client-title experties-title">
+            <h6>CUSTOMERS REVIEWS</h6>
+            <h3>What's Our Customer Say</h3>
+          </div>
+        </div>
+        <div class="row customer-review-row">
+          <div class="col">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-lg-5 reviews-img">
+                      <img
+                        src="images/customer-11.jpg"
+                        class="img-fluid"
+                        alt="..."
+                      />
+                    </div>
+                    <div class="col-lg-7 client-title review-title">
+                      <div>
+                        <i class="fa-solid fa-star"> </i>
+                        <i class="fa-solid fa-star"> </i>
+                        <i class="fa-solid fa-star"> </i>
+                        <i class="fa-solid fa-star"> </i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <p>
+                        <i class="fa-solid fa-quote-left"></i> Engage with our
+                        professional real state agents sell Following buy or
+                        rent your home.Get emails directly to your area to reach
+                        inbox and manage the lead with
+                        <i class="fa-solid fa-quote-right"></i>
+                      </p>
+                      <div>
+                        <h3>Maria Zokatti</h3>
+                        <h6><i class="fa-solid fa-circle"></i>CEO, PSDBOSS</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-lg-5 reviews-img">
+                      <img
+                        src="images/customer-11.jpg"
+                        class="img-fluid"
+                        alt="..."
+                      />
+                    </div>
+
+                    <div class="col-lg-7 client-title review-title">
+                      <div>
+                        <i class="fa-solid fa-star"> </i>
+                        <i class="fa-solid fa-star"> </i>
+                        <i class="fa-solid fa-star"> </i>
+                        <i class="fa-solid fa-star"> </i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <p>
+                        <i class="fa-solid fa-quote-left"></i> Engage with our
+                        professional real state agents sell Following buy or
+                        rent your home.Get emails directly to your area to reach
+                        inbox and manage the lead with
+                        <i class="fa-solid fa-quote-right"></i>
+                      </p>
+                      <div>
+                        <h3>Maria Zokatti</h3>
+                        <h6><i class="fa-solid fa-circle"></i>CEO, PSDBOSS</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-lg-5 reviews-img">
+                      <img
+                        src="images/customer-11.jpg"
+                        class="img-fluid"
+                        alt="..."
+                      />
+                    </div>
+
+                    <div class="col-lg-7 client-title review-title">
+                      <div>
+                        <i class="fa-solid fa-star"> </i>
+                        <i class="fa-solid fa-star"> </i>
+                        <i class="fa-solid fa-star"> </i>
+                        <i class="fa-solid fa-star"> </i>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                      <p>
+                        <i class="fa-solid fa-quote-left"></i> Engage with our
+                        professional real state agents sell Following buy or
+                        rent your home.Get emails directly to your area to reach
+                        inbox and manage the lead with
+                        <i class="fa-solid fa-quote-right"></i>
+                      </p>
+                      <div>
+                        <h3>Maria Zokatti</h3>
+                        <h6><i class="fa-solid fa-circle"></i>CEO, PSDBOSS</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev prev-btn"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <i class="fa-solid fa-angle-left" aria-hidden="true"></i>
+              </button>
+              <button
+                class="carousel-control-next prev-btn next-btn"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <i class="fa-solid fa-angle-right" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- new trending blog -->
+    <section class="blog-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 client-title properties-title">
+            <h6><i class="fa-solid fa-circle"></i>WHAT'S NEW TRENDING</h6>
+            <h3>Latest Blog and & Posts</h3>
+          </div>
+          <div class="col-md-6 top-area-button">
+            <button class="btn btn-primary read-more-btn top-area-btn">
+              See All Blogs
+            </button>
+          </div>
+        </div>
+        <div class="row properties-cards pt-5">
+          <div class="col properties-card">
+            <div class="card blogs-card top-area-tile">
+              <img src="images/blog-1.avif" class="card-img-top" alt="..." />
+              <div class="sell-card-apartment blog-date">
+                <h5>13 <span>Aug</span></h5>
+              </div>
+              <div class="card-body card-selling blog-detail">
+                <div class="d-flex gap-3">
+                  <p><i class="fa-solid fa-circle"></i>Apartment, Room</p>
+                  <p><i class="fa-solid fa-circle"></i>5 Min</p>
+                </div>
+
+                <h4>How To Do Market Research For to Sell Faster</h4>
+                <div class="blog-read-more">
+                  <a href=""
+                    >Read More <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col properties-card">
+            <div class="card blogs-card top-area-tile">
+              <img src="images/blog-3.jfif" class="card-img-top" alt="..." />
+              <div class="sell-card-apartment blog-date">
+                <h5>13 <span>Aug</span></h5>
+              </div>
+              <div class="card-body card-selling blog-detail">
+                <div class="d-flex gap-3">
+                  <p><i class="fa-solid fa-circle"></i>Apartment, Room</p>
+                  <p><i class="fa-solid fa-circle"></i>5 Min</p>
+                </div>
+
+                <h4>How To Do Market Research For to Sell Faster</h4>
+                <div class="blog-read-more">
+                  <a href=""
+                    >Read More <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col properties-card">
+            <div class="card blogs-card top-area-tile">
+              <img src="images/blog-2.jpg" class="card-img-top" alt="..." />
+              <div class="sell-card-apartment blog-date">
+                <h5>13 <span>Aug</span></h5>
+              </div>
+              <div class="card-body card-selling blog-detail">
+                <div class="d-flex gap-3">
+                  <p><i class="fa-solid fa-circle"></i>Apartment, Room</p>
+                  <p><i class="fa-solid fa-circle"></i>5 Min</p>
+                </div>
+
+                <h4>How To Do Market Research For to Sell Faster</h4>
+                <div class="blog-read-more">
+                  <a href=""
+                    >Read More <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- become a real state agent -->
+    <section class="real-state-section">
+      <div class="container">
+        <div class="row">
+          <div class="col client-title become-agents real-state-agent">
+            <div class="agents-card state-agent">
+              <div>
+                <img src="images/real-state-agent.png" alt="" />
+              </div>
+              <div>
+                <h3>Becone a Real State Agents</h3>
+                <p>
+                  We only work with the best companies around the globe to
+                  survey
+                </p>
+              </div>
+            </div>
+            <div><button class="btn join-now-btn">Join Now</button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <section class="header-section footer-section">
+      <div class="container">
+        <div class="row footer-row">
+          <div class="col-lg-3  col-md-6 footer-title">
+            <div class="d-flex flex-column gap-3">
+              <div class="nav-logo footer-logo">
+                <img src="images/nav-logo-removebg-preview.png" alt="" />
+                <div class="nav-title">
+                  <a class="navbar-brand" href="#"> Homelisti </a>
+                  <a href="">wp realestate</a>
+                </div>
+              </div>
+              <p>
+                Corem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+                reiciendis nihil itaque reiciendis quasi, sit amet consectetur
+                adipisicing elit. Maxime, eiciendis quasi laborum obcaecati
+                possimus?
+              </p>
+              <div class="footer-icons">
+                <a href="">
+                  <div class="footer-icon">
+                    <i class="fa-brands fa-facebook-f"></i></div
+                ></a>
+
+                <a href=""
+                  ><div class="footer-icon">
+                    <i class="fa-brands fa-twitter"></i></div
+                ></a>
+                <a href=""
+                  ><div class="footer-icon">
+                    <i class="fa-brands fa-vimeo"></i></div
+                ></a>
+
+                <a href=""
+                  ><div class="footer-icon">
+                    <i class="fa-brands fa-pinterest"></i></div
+                ></a>
+                <a href=""
+                  ><div class="footer-icon">
+                    <i class="fa-brands fa-whatsapp"></i></div
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3  col-md-6 footer-title">
+            <div class="footer-links">
+              <div>
+                <h5>Quick Links</h5>
+                <div class="footer-border"></div>
+              </div>
+
+              <ul>
+                <li>
+                  <a href="#">About Us </a>
+                </li>
+                <li>
+                  <a href="#">Blogs & Article</a>
+                </li>
+                <li>
+                  <a href="#">Terms & conditions</a>
+                </li>
+                <li>
+                  <a href="#">Privacy policy</a>
+                </li>
+                <li>
+                  <a href="#">contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3  col-md-6 footer-title">
+            <div class="footer-links">
+              <div>
+                <h5>Instagram</h5>
+                <div class="footer-border"></div>
+              </div>
+              <div class="footer-images">
+                <img src="images/footer-1.jpg" alt="" />
+                <img src="images/footer-2.jpg" alt="" />
+                <img src="images/footer-3.jpg" alt="" />
+                <img src="images/footer-4.jpg" alt="" />
+                <img src="images/footer-5.jfif" alt="" />
+                <img src="images/footer-6.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3  col-md-6 footer-title">
+            <div class="footer-links">
+              <div>
+                <h5>Contact</h5>
+                <div class="footer-border"></div>
+              </div>
+              <ul class="instagram-links">
+                <li>
+                  <a href="#">
+                    <div class="footer-address ">
+                      <i class="fa-solid fa-location-dot"></i>
+                      <p>121 King St. Melbourne den 3000 Australia</p>
+                    </div></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><div class="d-flex">
+                      <i class="fa-solid fa-envelope"></i>
+                      <p>info@example.com</p>
+                    </div></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><div class="d-flex">
+                      <i class="fa-solid fa-phone"></i>
+                      <p>(+123 596 000)</p>
+                    </div></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer terms and conditions  -->
+    <section class="footer-terms">
+      <div class="container">
+        <div class="row footer-rights">
+          <div
+            class="col-md-12 d-flex justify-content-between align-items-center"
+          >
+            <div class="d-flex align-items-center gap-3">
+              <a href="">Terms of Use</a>
+              <p>.</p>
+              <a href="">Privacy policy</a>
+            </div>
+            <div>
+              <a href="">2022@ All right served by RadiusTheme.</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

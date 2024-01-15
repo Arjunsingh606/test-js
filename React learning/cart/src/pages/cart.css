@@ -1,0 +1,20 @@
+.cartCard{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cart-btn{
+    display: inline-block;
+    width: 100px;
+    height: 32px;
+    padding: 1px 14px !important;
+    border: 1px solid white;
+    border-radius: 25px;
+    background-color: royalblue;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.cart-btn:hover{
+    background-color: #8c09ff;
+}

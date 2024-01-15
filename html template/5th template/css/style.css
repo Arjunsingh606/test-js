@@ -1,0 +1,914 @@
+body {
+  padding: 0;
+  width: 100%;
+  margin: auto;
+  height: auto;
+  font-family: "Poppins", sans-serif;
+}
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+}
+/* header */
+.header {
+  background-color: #fff;
+  width: 100%;
+}
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+}
+.header li a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  padding: 5px 50px 5px 25px;
+  border-radius: 10px;
+  color: #858594;
+}
+.header li a:hover,
+.header .menu-btn:hover {
+  background-color: #f2f8ff;
+  color: #0078ff;
+}
+/* menu */
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+  display: flex;
+  flex-direction: column;
+}
+/* menu icon */
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  padding: 28px 20px;
+  user-select: none;
+  position: absolute;
+  top: 3%;
+  left: 21%;
+  background-color: #28d2fd;
+  color: #fff;
+}
+.header .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background 0.2s ease-out;
+  width: 30px;
+}
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #333;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+/* menu btn */
+.header .menu-btn {
+  display: none;
+}
+.header .menu-btn:checked ~ .menu {
+  max-height: 100vh;
+}
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+.sub-menu li {
+  list-style: none;
+}
+.sub-menu {
+  padding-left: 0;
+}
+.sub-menu li a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  padding: 0 25px 0 56px;
+  border-radius: 10px;
+  color: #858594;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  border: 1px solid #f2f2f2;
+  flex-direction: column;
+  width: 20%;
+  justify-content: space-between;
+}
+.row {
+  border-top: 1px solid #eeeeee;
+}
+.personal-row > p {
+  padding-left: 55px;
+  color: #858594;
+}
+.menu > p {
+  padding-left: 24px;
+  color: #858594;
+}
+.navigation-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  float: left;
+  padding: 15px;
+  border-bottom: 1px solid #eeeeee;
+}
+.nav-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 0 0 0;
+}
+.nav-brand img {
+  width: 3rem;
+  height: 3rem;
+}
+.nav-input {
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 2rem;
+}
+.nav-input input {
+  padding: 10px 106px 10px 36px;
+  border-radius: 3rem;
+  border: 2px solid #f2f2f2;
+}
+.input-search-icon {
+  position: absolute;
+  left: 10px;
+  color: #8d8d9b;
+}
+.searchbar-modal {
+  display: none;
+}
+/* dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 0rem;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content ul {
+  padding-inline-start: 0px;
+  text-align: center;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+.dropdown-content ul li {
+  list-style: none;
+  color: #827f8f;
+  border-bottom: 1px solid #e0dee8;
+}
+.dropdown-content ul li a:hover {
+  background-color: #2a48b0;
+}
+.dropdown-content .dropdown-heading {
+  background-color: #2a48b0;
+  color: #fff;
+  width: auto;
+  height: 3rem;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown ul li a:link,
+.dropdown ul li a:visited {
+  display: inline-block;
+  padding: 15px 4rem;
+  width: 100%;
+  box-sizing: border-box;
+  color: var(--dropdown-color);
+  text-decoration: none;
+}
+/* nav tabs */
+.nav-tabs {
+  padding: 0 30px;
+}
+.tabcontent {
+  float: left;
+  padding: 0px 16px;
+  width: 100%;
+  border-left: none;
+}
+.dashboard-overview {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+}
+/* input modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+.modal-content input {
+  padding: 1rem;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.overview-btn input {
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 15px 28px;
+  cursor: pointer;
+}
+.overview-btn {
+  display: flex;
+  gap: 1rem;
+}
+.overview-btn button {
+  border-radius: 10px;
+  padding: 15px 25px;
+  background-color: #007aff;
+  border: none;
+  color: #fff;
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+/* overview cards */
+.overview-card {
+  display: flex;
+  width: 60%;
+}
+.card-icon {
+  width: 4rem;
+  height: 4rem;
+  background-color: #f2f8ff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #007aff;
+}
+.emp-demographic {
+  border: 1px solid #ececec;
+  width: 40%;
+}
+.card-icon.stat-with-icon {
+  border-radius: 3rem;
+  width: 7rem;
+  height: 3rem;
+  background-color: #eafaf0;
+  color: #0bc255;
+  gap: 9px;
+}
+.card-statatics {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.card-details p {
+  margin-bottom: 0;
+  color: #757586;
+  font-weight: 700;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  border: 1px solid #ededed;
+  border-right: 0;
+  width: 33.33%;
+  padding: 2rem;
+}
+.card.card-first {
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.overview-cards {
+  display: flex;
+  width: 100%;
+}
+.stat-with-icon.resigned {
+  background-color: #faeaea;
+  color: #cb3131;
+}
+.roles-dropdown select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #dadada;
+}
+.roles-dropdown select:after {
+  border: none;
+}
+.avg-drop-icon select {
+  -webkit-appearance: none;
+  appearance: none;
+}
+.demographic-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ececec;
+  position: relative;
+  padding: 0 1rem;
+}
+.cycle-employee-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+.card-icon.employee-circle {
+  width: 6rem;
+  height: 6rem;
+  background-color: #fff;
+  flex-direction: column;
+  outline-offset: 10px;
+  outline: 10px solid #007aff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.employee-demo-roles {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+}
+.demographic-roles {
+  width: 50%;
+  border: 1px solid #ececec;
+  padding-left: 1rem;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 1rem;
+}
+.demographics-chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.employee-circle h2 {
+  margin: 0;
+  color: black;
+  font-size: 1.5rem;
+}
+.employee-circle p {
+  margin-top: 1px;
+  font-size: 15px;
+}
+.demographic-roles.icon-1 i {
+  color: #0070ff;
+}
+.demographic-roles.icon-2 i {
+  color: #00254d;
+}
+.demographic-roles.icon-3 i {
+  color: #004999;
+}
+.demographic-roles.icon-4 i {
+  color: #66afff;
+}
+.card-details h4 {
+  margin-top: 10px;
+}
+.nav-tabs h3 {
+  color: #78788a;
+  padding-left: 25px;
+}
+/* charts */
+.charts {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+.total-score-chart {
+  width: 30%;
+  border: 1px solid #ececec;
+  border-radius: 15px;
+}
+.team-analytics {
+  width: 68%;
+  border: 1px solid #ececec;
+  border-radius: 15px;
+}
+.half-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+  border-bottom: 1px solid #eeeeee;
+  border-top: 1px solid #eeeeee;
+}
+.semi-circle {
+  width: 200px;
+  height: 100px;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  border: 2rem solid #007aff;
+  border-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.avg-card-subtitle {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+.subtitle-icon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 10px;
+  background-color: #f6f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-details.half-circle-title h3 {
+  margin: 0;
+}
+.card-details.half-circle-title p {
+  font-weight: 400;
+}
+.roles-dropdown.circle-title-icon label {
+  border: 0;
+  border-radius: 0px;
+  padding: 10px 14px;
+  font-size: 21px;
+  color: #757586;
+  position: relative;
+  cursor: pointer;
+}
+.total-score-chart .demographic-title {
+  border-bottom: 0;
+}
+.avg-card-subtitle a {
+  text-decoration: none;
+  color: #78788a;
+}
+.team-analytics-dropdown {
+  display: flex;
+  gap: 1rem;
+}
+.team-analytics-img img {
+  width: 100%;
+  height: auto;
+}
+.employee-status {
+  width: 38%;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+}
+.projects-overview {
+  width: 30%;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+}
+.upcoming-interview {
+  width: 28%;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+}
+/* last row cards */
+.project-overview-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.project-overview {
+  width: 48%;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #eeee;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.project-overview i {
+  font-size: 25px;
+  color: #a2a2ae;
+}
+.project-overview p {
+  margin: 0;
+  color: #8d8d9c;
+}
+.project-overview h3 {
+  margin-bottom: 10px;
+}
+.interview-cards img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.interview-cards {
+  display: flex;
+  align-items: center;
+  border: 1px solid #eeeeee;
+  padding: 0 1rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+.interview-cards.first {
+  margin-top: 2rem;
+}
+.upcoming-interview-cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 330px;
+}
+.interview-card-detail {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  border-bottom: 1px solid #eeeeee;
+  padding: 0px 2rem 0rem 2rem;
+}
+.interview-card-detail > div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.interview-cards i {
+  color: #757586;
+}
+.interview-card-detail h3 {
+  margin-bottom: 7px;
+}
+.interview-card-detail p {
+  margin-top: 2px;
+  color: #757586;
+}
+.interview-card-date {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 10px 0;
+}
+.interview-card-date div {
+  display: flex;
+  align-items: center;
+}
+.interview-card-date p {
+  color: #757586;
+}
+.interview-card-date i:nth-child(1) {
+  padding-right: 10px;
+  font-size: 20px;
+}
+.interview-card-date i:nth-child(3) {
+  padding: 0 7px;
+  font-size: 8px;
+}
+.status p {
+  color: #12c459;
+  font-weight: 600;
+}
+.stat-with-icon.interview-second-card {
+  background-color: #e5f2ff;
+}
+.interview-second-card p {
+  color: #0066ff;
+}
+.employee-title {
+  display: flex;
+  background-color: #f9f9f9;
+  color: #777777;
+  justify-content: flex-start;
+  font-weight: 600;
+  align-items: center;
+  gap: 7rem;
+  padding-left: 1rem;
+}
+.employee-name {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.interview-card-detail.active-status {
+  padding: 8px 0px;
+  gap: 4rem;
+}
+.employee-name p {
+  margin: 0;
+  font-size: 18px;
+}
+.employee-name h3 {
+  margin: 0;
+}
+.interview-cards.employee-status-card {
+  border: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+.card-icon.emp-third-status {
+  background-color: #fdf7ea;
+}
+.card-icon.emp-third-status p {
+  color: #eaab1a;
+}
+.card-icon.emp-fourth-status {
+  background-color: #faeaea;
+}
+.card-icon.emp-fourth-status p {
+  color: #cb3030;
+}
+.interview-card-detail.profile-dropdown {
+  gap: 1rem;
+  border: none;
+  padding: 0;
+  border-top: 1px solid #eeeeee;
+}
+.interview-cards.profile-card {
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  margin: 0;
+}
+.dropdown-content.profile-content {
+  bottom: 1rem;
+}
+.profile-name h3 {
+  font-size: 15px;
+}
+.profile-name p {
+  font-size: 13px;
+}
+/* meadia query */
+@media screen and (max-width: 1600px) {
+  .team-analytics-img img {
+    height: 265px;
+  }
+  .charts {
+    justify-content: center;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .projects-overview {
+    width: 48%;
+  }
+  .upcoming-interview {
+    width: 50%;
+  }
+
+  .employee-status {
+    width: 54%;
+  }
+}
+
+@media screen and (max-width: 1430px) {
+  .card {
+    border-right: 1px solid #eeeeee;
+    width: 33.33%;
+  }
+  .overview-cards {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .overview-card {
+    width: 100%;
+  }
+  .card.card-three {
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .emp-demographic {
+    width: 100%;
+    border-radius: 15px;
+  }
+  .employee-status {
+    width: 66%;
+  }
+}
+@media (min-width: 1199px) {
+  .header li {
+    float: left;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .nav-input input {
+    display: none;
+    padding: 10px 35px 10px 36px;
+  }
+  .dashboard-title h1 {
+    margin-bottom: 0;
+  }
+  .navigation-item p {
+    visibility: hidden;
+  }
+  .projects-overview {
+    width: 68%;
+  }
+  .employee-status {
+    width: 80%;
+  }
+  .employee-title {
+    gap: 8rem;
+  }
+  .total-score-chart {
+    width: 68%;
+  }
+  .upcoming-interview {
+    width: 68%;
+  }
+  .navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 25%;
+  }
+  .header .menu-icon {
+    padding: 17px 4px;
+    top: 4%;
+    left: 67%;
+    border-radius: 4px;
+  }
+  .dashboard-content {
+    margin-left: 249px;
+  }
+  .nav-brand {
+    justify-content: flex-start;
+    padding: 11px 0 0 24px;
+  }
+  .sub-menu li a {
+    padding: 0 25px 0 30px;
+  }
+  .header li a {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  .searchbar-modal {
+    display: block;
+  }
+  .nav-input .modal-input {
+    display: block;
+  }
+  .input-search-icon i {
+    display: none;
+  }
+  .interview-card-detail.active-status {
+    gap: 2rem;
+  }
+  .employee-title {
+    gap: 6rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .nav-input {
+    gap: 1rem;
+  }
+  .dashboard-overview {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .dashboard-title h1 {
+    text-align: center;
+  }
+  .overview-card {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    gap: 1rem;
+  }
+  .card {
+    width: 64%;
+    border-radius: 10px;
+  }
+  .card.card-first {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  .demographic-title {
+    flex-direction: column;
+  }
+  .project-overview {
+    width: 100%;
+  }
+  .upcoming-interview {
+    width: 100%;
+  }
+  .employee-status {
+    width: 100%;
+  }
+  .employee-name p {
+    font-size: 15px;
+  }
+  .employee-name {
+    gap: 1rem;
+  }
+  .interview-card-detail.active-status {
+    gap: 1rem;
+  }
+  .employee-title {
+    gap: 3rem;
+  }
+  .cycle-employee-data {
+    padding: 3rem 0;
+  }
+  .demographics-chart {
+    flex-direction: column;
+  }
+  .navigation {
+    width: 35%;
+  }
+  .dashboard-content {
+    margin-left: 250px;
+  }
+}
+@media screen and (max-width: 575px) {
+}
+
+@media screen and (max-width: 460px) {
+  .header .menu-icon {
+    top: 2%;
+  }
+}

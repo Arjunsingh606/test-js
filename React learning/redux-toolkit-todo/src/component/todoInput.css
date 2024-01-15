@@ -1,0 +1,9 @@
+.todo-form {
+  display: flex;
+  justify-content: center;
+  align-items: centerF;
+}
+.todo-input{
+    display: flex;
+    gap: 1rem;
+}

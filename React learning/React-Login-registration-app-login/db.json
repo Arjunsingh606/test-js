@@ -1,0 +1,100 @@
+{
+  "user": [
+    {
+      "firstName": "Rahul ",
+      "lastName": "Savaliya",
+      "email": "rahul@gmail.com",
+      "password": "aaaaa",
+      "confirmPass": "aaaa",
+      "id": 39
+    },
+    {
+      "firstName": "Arjun ",
+      "lastName": "Singh",
+      "email": "singharjun.u@gmail.com",
+      "password": "asdeds",
+      "confirmPass": "asdesd",
+      "id": 40
+    },
+    {
+      "firstName": "Pace",
+      "lastName": "Burks",
+      "email": "hefycute@mailinator.com",
+      "password": "Pa$$w0rd!",
+      "confirmPass": "Pa$$w0rd!",
+      "id": 41
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "confirmPass": "",
+      "id": 42
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "confirmPass": "",
+      "id": 43
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "confirmPass": "",
+      "id": 44
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "confirmPass": "",
+      "id": 45
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "confirmPass": "",
+      "id": 46
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "confirmPass": "",
+      "id": 47
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "confirmPass": "",
+      "id": 48
+    },
+    {
+      "firstName": "Arjun",
+      "lastName": "Singh",
+      "email": "player@gmail.com",
+      "password": "ssss",
+      "confirmPass": "sdfdsfds",
+      "id": 49
+    },
+    {
+      "firstName": "apple",
+      "lastName": "bannana",
+      "email": "xowyxy@mailinator.com",
+      "password": "aaaaa",
+      "confirmPass": "aswdwedew",
+      "id": 50
+    }
+  ]
+}

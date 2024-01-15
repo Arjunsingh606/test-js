@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template-05</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navigation">
+        <div>
+          <div class="nav-brand">
+            <img src="images/brand-logo.png" alt="" />
+            <h2>kyra.</h2>
+          </div>
+
+          <!-- vertical tabs in navbar -->
+          <div class="row">
+            <div class="nav-tabs" id="myTopnav">
+              <header class="header">
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"
+                  ><span class="navicon"></span
+                ></label>
+                <ul class="menu">
+                  <p>GENRAL</p>
+                  <li>
+                    <a href="">
+                      <i class="fa-solid fa-table-columns"></i>
+                      <p>Dashboard</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fa-solid fa-user-group"></i>
+                      <p>Employee</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fa-brands fa-searchengin"></i>
+                      <p>Recruitment</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fa-solid fa-arrow-trend-up"></i>
+                      <p>Performance</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fa-regular fa-calendar"></i>
+                      <p>Schedule</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fa-solid fa-chart-column"></i>
+                      <p>Analytics</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fa-solid fa-chart-column"></i>
+                      <p>Analytics</p>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fa-regular fa-file"></i>
+                      <p>projects</p>
+                    </a>
+                  </li>
+                </ul>
+                
+              </header>
+             
+            </div>
+          </div>
+
+          <!-- personal tabs in vertical navbar -->
+          <div class="personal-row">
+            <p>Personal</p>
+            <ul class="sub-menu">
+              <li>
+                <a href="">
+                  <i class="fa-solid fa-gear"></i>
+                  <p>Settings</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa-regular fa-circle-question"></i>
+                  <p>Help & Supports</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa-solid fa-phone"></i>
+                  <p>Contact Us</p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa-regular fa-circle-user"></i>
+                  <p>Accounts Information</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- profile dropdown in vertical navbar -->
+        <div class="profile-dropdown">
+          <div class="interview-cards profile-card">
+            <div class="interview-card-detail profile-dropdown">
+              <div>
+                <img src="images/interview-1.jpg" alt="" />
+                <div class="profile-name">
+                  <h3>Jakob Workman</h3>
+                  <p>jakobskuy@gmail.com</p>
+                </div>
+              </div>
+              <div>
+                <div class="dropdown">
+                  <span><i class="fa-solid fa-chevron-down"></i></span>
+                  <div class="dropdown-content profile-content">
+                    <div class="dropdown-heading">
+                      <p>User Notification</p>
+                    </div>
+                    <ul>
+                      <li><a href="">Notification</a></li>
+                      <li><a href="">Notification</a></li>
+                      <li><a href="">Notification</a></li>
+                      <li><a href="">Notification</a></li>
+                      <li><a href="">Notification</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- dashboard content -->
+      <div class="overlay"></div>
+      <div class="dashboard-content">
+        <div class="navigation-item">
+          <p>Hi James, Welcome!<i class="fa-regular fa-hand-spock"></i></p>
+          <div class="nav-input">
+            <div><input type="text" placeholder="Search something..." /></div>
+            <!-- search icon modal -->
+            <div class="searchbar-modal">
+              <div id="myBtn"><i class="fa-solid fa-magnifying-glass"></i></div>
+              <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <input type="text" class="modal-input" placeholder="Search something..." />
+                </div>
+              </div>
+            </div>
+
+            <div class="input-search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div>
+              <div class="dropdown">
+                <span><i class="fa-regular fa-bell"></i></span>
+                <div class="dropdown-content">
+                  <div class="dropdown-heading">
+                    <p>User Notification</p>
+                  </div>
+                  <ul>
+                    <li><a href="">Notification</a></li>
+                    <li><a href="">Notification</a></li>
+                    <li><a href="">Notification</a></li>
+                    <li><a href="">Notification</a></li>
+                    <li><a href="">Notification</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="dropdown">
+                <span><i class="fa-regular fa-comment-dots"></i></span>
+                <div class="dropdown-content">
+                  <div class="dropdown-heading">
+                    <p>User Notification</p>
+                  </div>
+                  <ul>
+                    <li><a href="">Notification</a></li>
+                    <li><a href="">Notification</a></li>
+                    <li><a href="">Notification</a></li>
+                    <li><a href="">Notification</a></li>
+                    <li><a href="">Notification</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- dashboard overview -->
+        <div id="London" class="tabcontent">
+          <div class="dashboard-overview">
+            <div class="dashboard-title">
+              <h1>Dashboard Overview</h1>
+              <p>Get a comprehensive snapshot of your HR oprations at glance</p>
+            </div>
+            <div class="overview-btn">
+              <div>
+                <input type="date" name="dateofbirth" id="dateofbirth" />
+              </div>
+              <div>
+                <button>
+                  <i class="fa-solid fa-arrow-up-from-bracket"></i>Export
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="overview-cards">
+            <div class="overview-card">
+              <div class="card card-first">
+                <div class="card-icon">
+                  <i class="fa-solid fa-user-group"></i>
+                </div>
+                <div class="card-details">
+                  <p>TOTAL EMPLYEEE</p>
+                  <div class="card-statatics">
+                    <h2>450</h2>
+                    <div class="card-icon stat-with-icon">
+                      <i class="fa-solid fa-arrow-trend-up"></i>15,6%
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-icon">
+                  <i class="fa-solid fa-user-plus"></i>
+                </div>
+                <div class="card-details">
+                  <p>NEW EMPLYEEE</p>
+                  <div class="card-statatics">
+                    <h2>123</h2>
+                    <div class="card-icon stat-with-icon">
+                      <i class="fa-solid fa-arrow-trend-up"></i>23,3%
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card card-three">
+                <div class="card-icon">
+                  <i class="fa-solid fa-user-minus"></i>
+                </div>
+                <div class="card-details">
+                  <p>RESIGNED EMPLYEEE</p>
+                  <div class="card-statatics">
+                    <h2>12</h2>
+                    <div class="card-icon stat-with-icon resigned">
+                      <i class="fa-solid fa-arrow-trend-up"></i>7,4%
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="emp-demographic">
+              <div>
+                <div class="demographic-title">
+                  <h3>Employee Demographics</h3>
+                  <div class="roles-dropdown">
+                    <select>
+                      <option value="volvo">Roles</option>
+                      <option value="saab">Roles-1</option>
+                      <option value="opel">Roles-2</option>
+                      <option value="audi">Roles-3</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="demographics-chart">
+                  <div class="cycle-employee-data">
+                    <div class="card-details card-icon employee-circle">
+                      <h2>450<br /></h2>
+                      <p>EMPLYEEE</p>
+                    </div>
+                  </div>
+
+                  <div class="employee-demo-roles">
+                    <div class="demographic-roles icon-1">
+                      <i class="fa-solid fa-circle"></i>
+                      <div class="card-details">
+                        <p>Design</p>
+                        <h4>35%</h4>
+                      </div>
+                    </div>
+                    <div class="demographic-roles icon-2">
+                      <i class="fa-solid fa-circle"></i>
+                      <div class="card-details">
+                        <p>Marketing</p>
+                        <h4>12%</h4>
+                      </div>
+                    </div>
+                    <div class="demographic-roles icon-3">
+                      <i class="fa-solid fa-circle"></i>
+                      <div class="card-details">
+                        <p>Development</p>
+                        <h4>28%</h4>
+                      </div>
+                    </div>
+                    <div class="demographic-roles icon-4">
+                      <i class="fa-solid fa-circle"></i>
+                      <div class="card-details">
+                        <p>Research</p>
+                        <h4>25%</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="charts">
+            <div class="total-score-chart">
+              <div class="demographic-title">
+                <h3>Average Performance</h3>
+                <div class="roles-dropdown avg-drop-icon">
+                  <select>
+                    <option value="volvo">See All</option>
+                    <option value="saab">Roles-1</option>
+                    <option value="opel">Roles-2</option>
+                    <option value="audi">Roles-3</option>
+                  </select>
+                </div>
+              </div>
+              <div class="half-circle">
+                <div class="semi-circle card-details employee-circle">
+                  <h2>86</h2>
+                  <p>Total Score</p>
+                </div>
+              </div>
+              <div class="demographic-title">
+                <div class="avg-card-subtitle">
+                  <a href=""
+                    ><div class="subtitle-icon">
+                      <i class="fa-solid fa-bolt"></i></div
+                  ></a>
+                  <div class="card-details employee-circle half-circle-title">
+                    <h3>75</h3>
+                    <p>Total score in the last month</p>
+                  </div>
+                </div>
+
+                <div class="roles-dropdown circle-title-icon">
+                  <a href=""><i class="fa-solid fa-angle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="team-analytics">
+              <div class="demographic-title">
+                <h3>Team Performance Analytics</h3>
+                <div class="team-analytics-dropdown">
+                  <div class="roles-dropdown">
+                    <select>
+                      <option value="volvo">Roles</option>
+                      <option value="saab">Roles-1</option>
+                      <option value="opel">Roles-2</option>
+                      <option value="audi">Roles-3</option>
+                    </select>
+                  </div>
+
+                  <div class="roles-dropdown">
+                    <select>
+                      <option value="volvo">Aug 2022 to Aug 2023</option>
+                      <option value="saab">Roles-1</option>
+                      <option value="opel">Roles-2</option>
+                      <option value="audi">Roles-3</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="team-analytics-img">
+                <img src="images/chart-5.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="charts last-row-card">
+            <div class="projects-overview">
+              <div class="demographic-title">
+                <h3>Project Overview</h3>
+                <div class="roles-dropdown">
+                  <select>
+                    <option value="volvo">See All</option>
+                    <option value="saab">Roles-1</option>
+                    <option value="opel">Roles-2</option>
+                    <option value="audi">Roles-3</option>
+                  </select>
+                </div>
+              </div>
+              <div class="project-overview-cards">
+                <div class="project-overview">
+                  <div>
+                    <i class="fa-regular fa-file"></i>
+                  </div>
+                  <div>
+                    <h3>108</h3>
+                    <p>Total projects</p>
+                  </div>
+                </div>
+                <div class="project-overview">
+                  <div>
+                    <i class="fa-regular fa-circle-check"></i>
+                  </div>
+                  <div>
+                    <h3>50</h3>
+                    <p>Project Completed</p>
+                  </div>
+                </div>
+                <div class="project-overview">
+                  <div>
+                    <i class="fa-regular fa-clock"></i>
+                  </div>
+                  <div>
+                    <h3>48</h3>
+                    <p>Project Ongoing</p>
+                  </div>
+                </div>
+                <div class="project-overview">
+                  <div>
+                    <i class="fa-regular fa-circle-xmark"></i>
+                  </div>
+                  <div>
+                    <h3>13</h3>
+                    <p>Project Cancelled</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="upcoming-interview">
+              <div class="demographic-title">
+                <h3>Upcoming Interview</h3>
+                <div class="roles-dropdown avg-drop-icon">
+                  <select>
+                    <option value="volvo">
+                      Filter <i class="fa-solid fa-filter"></i>
+                    </option>
+                    <option value="saab">Roles-1</option>
+                    <option value="opel">Roles-2</option>
+                    <option value="audi">Roles-3</option>
+                  </select>
+                </div>
+              </div>
+              <div class="upcoming-interview-cards">
+                <div class="interview-cards first">
+                  <div class="interview-card-detail">
+                    <div>
+                      <img src="images/interview-1.jpg" alt="" />
+                      <div>
+                        <h3>Jakob Workman</h3>
+                        <p>jakobskuy@gmail.com</p>
+                      </div>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                  </div>
+                  <div class="interview-card-date">
+                    <div>
+                      <i class="fa-regular fa-calendar"></i>
+                      <p>June, 14</p>
+                      <i class="fa-solid fa-circle"></i>
+                      <p>9.00 AM</p>
+                    </div>
+                    <div class="card-icon stat-with-icon status">
+                      <p>Confirmed</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="interview-cards">
+                  <div class="interview-card-detail">
+                    <div>
+                      <img src="images/interview-2.jpg" alt="" />
+                      <div>
+                        <h3>Justin Levin</h3>
+                        <p>justindesign@gmail.com</p>
+                      </div>
+                    </div>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                  </div>
+                  <div class="interview-card-date">
+                    <div>
+                      <i class="fa-regular fa-calendar"></i>
+                      <p>June, 15</p>
+                      <i class="fa-solid fa-circle"></i>
+                      <p>8.00 AM</p>
+                    </div>
+                    <div class="card-icon stat-with-icon interview-second-card">
+                      <p>Scheduled</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="employee-status">
+              <div class="demographic-title">
+                <h3>Employee Status</h3>
+                <div class="roles-dropdown">
+                  <select>
+                    <option value="volvo">See All</option>
+                    <option value="saab">Roles-1</option>
+                    <option value="opel">Roles-2</option>
+                    <option value="audi">Roles-3</option>
+                  </select>
+                </div>
+              </div>
+              <div class="employee-title">
+                <p>EMPLOYEE STATUS</p>
+                <p>ROLES</p>
+                <p>STATUS</p>
+              </div>
+              <div class="interview-cards employee-status-card">
+                <div class="interview-card-detail active-status">
+                  <div>
+                    <img src="images/interview-1.jpg" alt="" />
+                    <div class="employee-name">
+                      <p>Jakob Workman</p>
+                      <p>Project Manager</p>
+                    </div>
+                  </div>
+                  <div class="card-icon stat-with-icon status employee-name">
+                    <p>Active</p>
+                  </div>
+                </div>
+                <div class="interview-card-detail active-status">
+                  <div>
+                    <img src="images/interview-1.jpg" alt="" />
+                    <div class="employee-name">
+                      <p>Kianna Culhane</p>
+                      <p>UX Researcher</p>
+                    </div>
+                  </div>
+                  <div class="card-icon stat-with-icon status employee-name">
+                    <p>Active</p>
+                  </div>
+                </div>
+                <div class="interview-card-detail active-status">
+                  <div>
+                    <img src="images/interview-1.jpg" alt="" />
+                    <div class="employee-name">
+                      <p>Talhan Dowart</p>
+                      <p>Graphic Designer</p>
+                    </div>
+                  </div>
+                  <div
+                    class="card-icon stat-with-icon emp-third-status employee-name"
+                  >
+                    <p>On Leave</p>
+                  </div>
+                </div>
+                <div class="interview-card-detail active-status">
+                  <div>
+                    <img src="images/interview-1.jpg" alt="" />
+                    <div class="employee-name">
+                      <p>Talhan Dowart</p>
+                      <p>Graphic Designer</p>
+                    </div>
+                  </div>
+                  <div
+                    class="card-icon stat-with-icon emp-fourth-status employee-name"
+                  >
+                    <p>Resigned</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
